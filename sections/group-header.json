@@ -82,7 +82,7 @@
         "sticky_header": false,
         "header_border": true,
         "link_hover_effect": "dot",
-        "logo_not_home": "{{ shop.brand.logo }}",
+        "logo_not_home": "shopify://shop_images/ms-icon-310x310.png",
         "logo_max_width": 50,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
@@ -93,7 +93,6 @@
         "highlight_item": "Sale",
         "highlight_item_color": "#d02e2e",
         "header_transparent": true,
-        "logo": "shopify://shop_images/GOLD.svg",
         "header_text_color": "white",
         "header_gradient": true
       }
