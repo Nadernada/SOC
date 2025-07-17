@@ -54,7 +54,7 @@
         "desktop_height": "original-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
-        "heading_size": 160,
+        "heading_size": 170,
         "button_1_color": "btn--white",
         "button_1_style": "btn--text",
         "button_1_size": "btn--small",
@@ -65,7 +65,7 @@
         "enable_slider_mobile": true,
         "columns_mobile": "1",
         "overlay_text": true,
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "add_gutter": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -89,6 +89,31 @@
     "main": {
       "type": "collection",
       "blocks": {
+        "promo_EJbdxB": {
+          "type": "promo",
+          "settings": {
+            "collection": "",
+            "position": 1,
+            "width": "auto",
+            "title": "<p>Promotion title</p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#d3d3d3",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
         "96343c36-f832-4740-8cd6-2a90dcf9e4d9": {
           "type": "promo",
           "settings": {
@@ -116,6 +141,7 @@
         }
       },
       "block_order": [
+        "promo_EJbdxB",
         "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
       ],
       "settings": {
@@ -124,10 +150,10 @@
         "enable_filters": true,
         "filters_layout": "open",
         "show_more": true,
-        "filter_mode": "default",
+        "filter_mode": "tag",
         "bg_color": "",
         "padding_top": 30,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     }
   },
