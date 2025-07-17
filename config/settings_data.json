@@ -105,7 +105,7 @@
     "social_twitter_link": "https://www.twitter.com/shopify",
     "social_pinterest_link": "",
     "social_youtube_link": "https://youtube.com/user/shopify",
-    "currency_code_enable": false,
+    "currency_code_enable": true,
     "favicon": "",
     "checkout_header_image": "",
     "checkout_logo_position": "left",

@@ -95,7 +95,7 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/f0e05eccffe1697421e2dfdaaaca2e0ffdd8f8ca.png",
-            "position": 3,
+            "position": 4,
             "width": "half",
             "title": "<p>Promotion title</p>",
             "heading_highlight_type": "circle",
@@ -107,7 +107,7 @@
             "text_color": "text-light",
             "text_position": "center",
             "layout": "stacked",
-            "overlay_opacity": 5,
+            "overlay_opacity": 0,
             "bg_color": "#f5f4f1",
             "button_text": "Get Notified",
             "button_link": "",
