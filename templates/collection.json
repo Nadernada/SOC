@@ -121,7 +121,7 @@
         "96343c36-f832-4740-8cd6-2a90dcf9e4d9"
       ],
       "settings": {
-        "show_breadcrumbs": true,
+        "show_breadcrumbs": false,
         "enable_sorting": true,
         "enable_filters": true,
         "filters_layout": "open",
@@ -208,17 +208,17 @@
       ],
       "name": "Split images",
       "settings": {
-        "image_height": "three-quarters-height",
+        "image_height": "two-thirds-height",
         "enable_mobile_height": false,
         "mobile_image_height": "four-fifty-height-mobile",
         "mobile_layout": "split",
         "text_position": "bottom-center",
-        "overlay_opacity": 10,
+        "overlay_opacity": 0,
         "width": "wrapper--narrow",
         "text_color": "text-light",
         "title": "<p>SIGN UP NOW AND GET 5% OFF</p>",
         "heading_highlight_type": "italics",
-        "highlight_color": "#D43747",
+        "highlight_color": "#f3f3f3",
         "highlight_text_color": "#000",
         "heading_size": 120,
         "text": "",
@@ -233,6 +233,135 @@
         "button_2_style": "btn--solid",
         "button_2_size": "btn--small"
       }
+    },
+    "section_sticky_images_and_text_F36QgC": {
+      "type": "section-sticky-images-and-text",
+      "blocks": {
+        "slide_NBFHA6": {
+          "type": "slide",
+          "settings": {
+            "truncate_text": true,
+            "title_length": 1,
+            "content_length": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": 130,
+            "content": "",
+            "text_size": 125,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "slide_KUzWj3": {
+          "type": "slide",
+          "settings": {
+            "truncate_text": true,
+            "title_length": 10,
+            "content_length": 15,
+            "subheading": "",
+            "title": "",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "slide_iDbdiC": {
+          "type": "slide",
+          "settings": {
+            "truncate_text": true,
+            "title_length": 10,
+            "content_length": 15,
+            "subheading": "",
+            "title": "",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "slide_yP7Ltf": {
+          "type": "slide",
+          "settings": {
+            "truncate_text": true,
+            "title_length": 10,
+            "content_length": 15,
+            "subheading": "",
+            "title": "",
+            "heading_size": 130,
+            "content": "",
+            "text_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        },
+        "slide_wELACk": {
+          "type": "slide",
+          "settings": {
+            "truncate_text": true,
+            "title_length": 1,
+            "content_length": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": 130,
+            "content": "",
+            "text_size": 125,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "video_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_NBFHA6",
+        "slide_KUzWj3",
+        "slide_iDbdiC",
+        "slide_yP7Ltf",
+        "slide_wELACk"
+      ],
+      "name": "Sticky images and text: Horizontal",
+      "settings": {
+        "scroll_direction": "horizontal",
+        "text_alignment": "center",
+        "image_position": "",
+        "space_around_images": true,
+        "image_width": "standard",
+        "aspect_ratio_desktop": 1.5,
+        "aspect_ratio_mobile": 1.5,
+        "show_single_text": false,
+        "text_color": "text-dark",
+        "bg_color": "#000000",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -241,6 +370,7 @@
     "subcollections",
     "main",
     "section_marquee_4xamHr",
-    "section_split_images_ewBPRz"
+    "section_split_images_ewBPRz",
+    "section_sticky_images_and_text_F36QgC"
   ]
 }
