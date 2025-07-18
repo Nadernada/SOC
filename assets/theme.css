@@ -30348,11 +30348,10 @@ search-form mark {
 .sticky-images-and-text__dot {
   margin: 0 8px 8px;
   border-radius: 5px;
-  border-color: white;
   display: inline-block;
   width: 10px;
   height: 10px;
-  border: var(--BORDER-WIDTH) solid var(--text);
+  border: var(--BORDER-WIDTH) solid white;
   background: transparent;
   transition: border 0.5s ease, width 0.5s ease, opacity 0.5s ease;
   opacity: 0.25;
