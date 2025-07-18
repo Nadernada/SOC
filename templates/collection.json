@@ -359,7 +359,7 @@
         "show_single_text": false,
         "text_color": "text-dark",
         "bg_color": "#000000",
-        "gradient": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
+        "gradient": "radial-gradient(rgba(NaN, NaN, NaN, 0), rgba(255, 204, 75, 1) 100%)",
         "width": "wrapper--full",
         "padding_top": 0,
         "padding_bottom": 0
