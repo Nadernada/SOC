@@ -129,7 +129,7 @@
         "filter_mode": "default",
         "bg_color": "",
         "padding_top": 30,
-        "padding_bottom": 30
+        "padding_bottom": 0
       }
     },
     "section_marquee_4xamHr": {
@@ -184,7 +184,7 @@
         "type_style": "font-heading",
         "text_size": 330,
         "letter_spacing": 0,
-        "message_spacing": 10,
+        "message_spacing": 5,
         "bg_color": "#000000",
         "gradient": "",
         "color": "#000000",
