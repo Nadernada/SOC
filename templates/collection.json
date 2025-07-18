@@ -240,6 +240,7 @@
         "slide_NBFHA6": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/PHOTO-2024-06-27-17-29-11.jpg",
             "truncate_text": true,
             "title_length": 1,
             "content_length": 1,
@@ -260,6 +261,7 @@
         "slide_KUzWj3": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/image_1.png",
             "truncate_text": true,
             "title_length": 10,
             "content_length": 15,
