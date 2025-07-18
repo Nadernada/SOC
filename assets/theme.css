@@ -32359,13 +32359,13 @@ search-form mark {
 .no-js .recipient-fields .errors {
   margin-top: calc(var(--form-margin) / 2);
 }
-.mosaic__item__content-inner {
+/* .mosaic__item__content-inner {
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
      height: 100%;
-   }
+   } */
 .black-square-bg {
      background: #000;
      color: #fff;
