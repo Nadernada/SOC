@@ -32371,3 +32371,6 @@ search-form mark {
      display: inline-block;
      padding: 16px 32px;
    }
+.mosaic__item__image img {
+  border-radius: 0 !important;
+}
