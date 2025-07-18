@@ -30348,7 +30348,7 @@ search-form mark {
 .sticky-images-and-text__dot {
   margin: 0 8px 8px;
   border-radius: 5px;
-  border-color: white
+  border-color: white;
   display: inline-block;
   width: 10px;
   height: 10px;
