@@ -957,6 +957,7 @@ select::-ms-expand {
 .one-fifty-height,
 .one-hundred-height {
   min-height: var(--min-h);
+  padding: 0 15px;
 }
 
 /* Mobile height */
@@ -9039,7 +9040,7 @@ section:hover .flickity-enabled > .flickity-prev-next-button:not(:disabled):hove
 }
 .site-header--has-border .wrapper:before {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
