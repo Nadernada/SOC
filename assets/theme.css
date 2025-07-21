@@ -17250,7 +17250,7 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   border: var(--BORDER-WIDTH) solid var(--border);
   background: var(--input-bg);
   padding: 5px 15px;
-  border-radius: var(--RADIUS);
+  border-radius: 1px;
 }
 .filter__price__field span {
   margin-right: 5px;
