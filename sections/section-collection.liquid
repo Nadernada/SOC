@@ -1004,12 +1004,12 @@
   endif
 
   if collection
-    render 'product-grid-item', product: product, animation_delay: animation_delay, tablet_counter: tablet_counter, mobile_counter: mobile_counter, carousel: carousel, columns: columns, section_width: section.settings.width, item_index: forloop.index0, intersection_ratio: intersection_ratio
+    render 'product-grid-item-with-banner', product: product, animation_delay: animation_delay, tablet_counter: tablet_counter, mobile_counter: mobile_counter, carousel: carousel, columns: columns, section_width: section.settings.width, item_index: forloop.index0, intersection_ratio: intersection_ratio
   else
     capture placeholder_index
       cycle 1, 2, 3, 5, 6
     endcapture
-    render 'product-grid-item--onboarding', columns_mobile: columns_mobile, carousel: carousel, placeholder_index: placeholder_index, index: forloop.index0, animation_delay: animation_delay, columns: columns, intersection_ratio: intersection_ratio
+    render 'product-grid-item-with-banner', columns_mobile: columns_mobile, carousel: carousel, placeholder_index: placeholder_index, index: forloop.index0, animation_delay: animation_delay, columns: columns, intersection_ratio: intersection_ratio
   endif
 
   assign tablet_counter = tablet_counter | plus: 1
