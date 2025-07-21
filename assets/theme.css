@@ -29483,7 +29483,7 @@ search-form mark {
 .split-images__content {
   grid-row-start: 1;
   grid-column-start: 1;
-  background: linear-gradient(to top, rgba(0, 0, 0, 3), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
 }
 @media only screen and (max-width: 767px) and (orientation: landscape) {
   .split-images__pane,
