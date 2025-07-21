@@ -484,9 +484,9 @@ html:not(:lang(ar)) .arabic-banner {
   position: relative;
 }
 
-.flickity-page-dots .dot {
+/* .flickity-page-dots .dot {
   border-color: var(--accent);
-}
+} */
 
 .custom-banner-content-wrapper {
   display: grid;
