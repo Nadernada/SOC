@@ -29486,6 +29486,7 @@ search-form mark {
   grid-column-start: 1;
 }
 
+/* Overlay gradient only at bottom */
 .split-images__pane::after {
   content: "";
   position: absolute;
@@ -29494,7 +29495,7 @@ search-form mark {
   right: 0;
   height: 30%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-  z-index: 1;
+  z-index: 2;
   pointer-events: none;
 }
 @media only screen and (max-width: 767px) and (orientation: landscape) {
