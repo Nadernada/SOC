@@ -756,11 +756,11 @@ input[disabled], input.disabled,
 textarea[disabled],
 textarea.disabled,
 select[disabled],
-select.disabled {
+/* select.disabled {
   cursor: default;
   background-color: var(--disabled-grey);
   border-color: var(--disabled-grey-darken);
-}
+} */
 
 /*================ Input element overrides ================*/
 input[type=checkbox],
