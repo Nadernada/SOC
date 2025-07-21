@@ -234,6 +234,34 @@
         "button_2_size": "btn--small"
       }
     },
+    "section_collection_kLa8g8": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "{{ collection }}",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.</p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_sticky_images_and_text_F36QgC": {
       "type": "section-sticky-images-and-text",
       "blocks": {
@@ -374,6 +402,7 @@
     "main",
     "section_marquee_4xamHr",
     "section_split_images_ewBPRz",
+    "section_collection_kLa8g8",
     "section_sticky_images_and_text_F36QgC"
   ]
 }
