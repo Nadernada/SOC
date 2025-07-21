@@ -17549,6 +17549,7 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
 @media only screen and (min-width: 768px) {
   .collection-promo__text {
     font-size: calc(1rem * var(--adjust-body));
+    font-family: "ITC Garamond Std", serif;
   }
 }
 
