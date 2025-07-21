@@ -84,7 +84,7 @@
         "link_hover_effect": "dot",
         "logo_not_home": "shopify://shop_images/ms-icon-310x310.png",
         "logo_max_width": 50,
-        "main-menu": "main-menu",
+        "main-menu": "dev-menu",
         "main_menu_secondary": "",
         "show_images": true,
         "image_aspect_ratio": 1,
