@@ -70,7 +70,8 @@
   if title contains '</a>'
     assign add_collection_link = false
   endif
--%}{% comment %}
+-%}
+{% comment %}
   Enhanced text decorations options - Liquid variables
 
   Dependencies:
@@ -84,7 +85,7 @@
 
 {%- liquid
   comment
-   Highlighted words count
+    Highlighted words count
   endcomment
   assign title_temp = title | split: '<em>'
   assign em_arr = ''
@@ -109,7 +110,7 @@
   assign letters_count_arr = letters_count_arr | replace_last: ', ', '' | split: ', '
 
   comment
-   Main highlight types logic
+    Main highlight types logic
   endcomment
   assign icon_url = ''
   assign icon_color = 'var(--text)'
@@ -125,20 +126,20 @@
       case heading_highlight_type
         when 'squiggle'
           assign icon_url = 'icon-squiggle.svg' | asset_url
-        when 'circle' or 'circle-hand-drawn' or 'underline-hand-drawn'
+        when 'circle', 'circle-hand-drawn', 'underline-hand-drawn'
           echo '<span class="text-highlight__icon" data-highlight-holder>'
 
-            when 'circle'
-              render 'icon-circle'
-            when 'circle-hand-drawn'
-              render 'icon-circle-hand-drawn'
-            when 'underline-hand-drawn'
-              render 'icon-underline-hand-drawn'
+        when 'circle'
+          render 'icon-circle'
+        when 'circle-hand-drawn'
+          render 'icon-circle-hand-drawn'
+        when 'underline-hand-drawn'
+          render 'icon-underline-hand-drawn'
 
           echo '</span>'
-        when 'highlight' or 'squiggle'
+        when 'highlight', 'squiggle'
           echo '<span class="text-highlight__icon text-highlight__icon--pseudo" data-highlight-holder></span>'
-        when 'stroke' or 'circle' or 'circle-hand-drawn' or 'squiggle' or 'highlight' or 'highlight-color' or 'underline' or 'underline-hand-drawn'
+        when 'stroke', 'circle', 'circle-hand-drawn', 'squiggle', 'highlight', 'highlight-color', 'underline', 'underline-hand-drawn'
           assign has_text_highlight = true
       endcase
     endif
@@ -160,14 +161,14 @@
   capture text_highlight_start
     echo '<text-highlight class="text-highlight" ' | append: icon_styles | append: ' data-highlight-type="' | append: heading_highlight_type | append: '">'
     case heading_highlight_type
-      when 'stroke' or 'highlight-color' or 'underline'
+      when 'stroke', 'highlight-color', 'underline'
         echo '<span class="text-highlight__string" data-highlight-holder>'
     endcase
   endcapture
   capture text_highlight_end
     echo text_highlight_icon
     case heading_highlight_type
-      when 'stroke' or 'highlight-color' or 'underline'
+      when 'stroke', 'highlight-color', 'underline'
         echo '</span>'
     endcase
     echo '</text-highlight>'
@@ -175,10 +176,10 @@
 
   if title != blank and title contains '<em>'
     case heading_highlight_type
-      when 'squiggle' or 'circle' or 'circle-hand-drawn' or 'stroke' or 'highlight' or 'highlight-color' or 'underline' or 'underline-hand-drawn'
+      when 'squiggle', 'circle', 'circle-hand-drawn', 'stroke', 'highlight', 'highlight-color', 'underline', 'underline-hand-drawn'
         assign title = title | replace: '<em>', text_highlight_start | replace: '</em>', text_highlight_end
 
-      when 'circle' or 'circle-hand-drawn'
+      when 'circle', 'circle-hand-drawn'
         comment
           Update icon's holder class based on the italicised words count
         endcomment
@@ -218,7 +219,8 @@
         assign title = title_mod
     endcase
   endif
--%}{%- style -%}
+-%}
+{%- style -%}
   {{ selector_id }} {
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
@@ -284,7 +286,7 @@
       {%- endcapture -%}
 
       {%- if add_collection_link -%}
-        <a href="{{ collection.url | default: '#!' }}" {{ title_attributes }}>
+        <a href="#" {{ title_attributes }}>
         {%- assign title_attributes = '' -%}
       {%- endif -%}
 
@@ -803,7 +805,22 @@
 </div>
 {%- endcapture -%}
 
-  {%- assign promos_array = promos_array | append: promo_order | append: '#promo_position#' | append: promo_position | append: '#promo_html#' | append: current_promo | append: '#block_id#' | append: block_id | append: '#promo_collection#' | append: promo_collection | append: '#promo_width#' | append: current_promo_width | append: '#promo_width_class#' | append: promo_width_class | append: '@@' -%}
+  {%- assign promos_array = promos_array
+    | append: promo_order
+    | append: '#promo_position#'
+    | append: promo_position
+    | append: '#promo_html#'
+    | append: current_promo
+    | append: '#block_id#'
+    | append: block_id
+    | append: '#promo_collection#'
+    | append: promo_collection
+    | append: '#promo_width#'
+    | append: current_promo_width
+    | append: '#promo_width_class#'
+    | append: promo_width_class
+    | append: '@@'
+  -%}
 {%- endfor -%}
 
 {%- assign promos_array = promos_array | split: '@@' | sort -%}
@@ -1012,7 +1029,7 @@
             else
               assign animation_delay = forloop.index0 | modulo: columns | times: 1
             endif
-              render 'product-grid-item', columns: columns, columns_mobile: columns_mobile, product: product, carousel: carousel, animation_delay: animation_delay, tablet_counter: tablet_counter, mobile_counter: mobile_counter, section_width: section_width
+              render 'product-grid-item-with-banner', columns: columns, columns_mobile: columns_mobile, product: product, carousel: carousel, animation_delay: animation_delay, tablet_counter: tablet_counter, mobile_counter: mobile_counter, section_width: section_width
             unless carousel
               assign tablet_counter = tablet_counter | plus: 1
               assign mobile_counter = mobile_counter | plus: 1
@@ -1243,7 +1260,7 @@
 {%- endcapture -%}
 
 {%- capture collection_container -%}
-  <div class="featured-collection__container {% if carousel %}carousel__container{% else %}grid__container{% endif %}">
+  <div class="featured-collection__container custom-carousel {% if carousel %}carousel__container{% else %}grid__container{% endif %}">
     <div class="{% if carousel %}carousel{% else %}grid{% endif %}{{ mobile_class }}{% if products.size == 0 %} featured-collection--empty{% endif %}"
       {% if carousel %}
         data-slider
@@ -1275,6 +1292,7 @@
   class="{{ section_classes }}"
   data-section-id="{{ section.id }}"
   data-section-type="featured-collection"
+
   {% if animations_enabled %}
     data-aos="fade"
     data-aos-delay="0"
@@ -1288,7 +1306,8 @@
       data-aos-carousel-mobile
     {% endif %}
   {% endif %}
-  data-columns="{{ columns }}">
+  data-columns="{{ columns }}"
+>
   <div class="{{ section_width }}">
     {{ section_heading }}
     {{ collection_container }}
@@ -1318,7 +1337,7 @@
       "type": "range",
       "id": "number_of_products",
       "label": "Products",
-      "default":8,
+      "default": 8,
       "min": 1,
       "max": 48,
       "step": 1
@@ -1471,6 +1490,55 @@
     },
     {
       "type": "header",
+      "content": "Product Buttons"
+    },
+    {
+      "type": "text",
+      "id": "button_product_text",
+      "label": "Text"
+    },
+    {
+      "type": "url",
+      "id": "button_product_link",
+      "label": "Link"
+    },
+    {
+      "type": "select",
+      "id": "button_product_color",
+      "label": "Second button color",
+      "default": "btn--black",
+      "options": [
+        { "label": "Primary", "value": "btn--primary" },
+        { "label": "Secondary", "value": "btn--secondary" },
+        { "label": "White", "value": "btn--white" },
+        { "label": "Black", "value": "btn--black" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "button_product_style",
+      "label": "Second button style",
+      "default": "btn--solid",
+      "options": [
+        { "label": "Solid", "value": "btn--solid" },
+        { "label": "Outline", "value": "btn--outline" },
+        { "label": "Solid with border", "value": "btn--solid-border" },
+        { "label": "Text", "value": "btn--text" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "button_product_size",
+      "label": "Second button size",
+      "default": "btn--small",
+      "options": [
+        { "label": "Large", "value": "btn--large" },
+        { "label": "Medium", "value": "btn--medium" },
+        { "label": "Small", "value": "btn--small" }
+      ]
+    },
+    {
+      "type": "header",
       "content": "Colors"
     },
     {
@@ -1526,7 +1594,7 @@
       "default": 60
     }
   ],
-   "blocks": [
+  "blocks": [
     {
       "type": "promo",
       "name": "Promo",
@@ -1750,7 +1818,7 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header","aside"]
+    "groups": ["header", "aside"]
   }
 }
 {% endschema %}
