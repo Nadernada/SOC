@@ -17618,7 +17618,8 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   width: 100%;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: flex-end;
+  height: 100%;
 }
 
 /*=== Animations ===*/
