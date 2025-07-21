@@ -267,6 +267,25 @@
         "padding_bottom": 60
       }
     },
+    "section_newsletter_4M8zmg": {
+      "type": "section-newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "title": "Sign up now and Get 5% Off",
+        "text": "<p>Sign up for exclusive deals and early access to new products.</p>",
+        "extra_fields": "",
+        "button_text": "",
+        "bg_color": "",
+        "image": "shopify://shop_images/IMG_4886.jpg",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_split_images_XTd8pT": {
       "type": "section-split-images",
       "blocks": {
@@ -280,6 +299,7 @@
       "block_order": [
         "image_fCJLaq"
       ],
+      "disabled": true,
       "name": "Split images",
       "settings": {
         "image_height": "four-fifty-height",
@@ -292,8 +312,8 @@
         "text_color": "text-light",
         "title": "<p>Sign up now and Get 5% Off</p>",
         "heading_highlight_type": "italics",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 120,
         "text": "Sign up for exclusive deals and early access to new products.",
         "button_1_text": "Learn More",
@@ -355,7 +375,7 @@
         "bg_color": "#000000",
         "text_color": "#ffffff",
         "box_color": "#000000",
-        "color_border": "#333",
+        "color_border": "#333333",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -376,6 +396,7 @@
     "section_marquee_4xamHr",
     "section_split_images_ewBPRz",
     "section_collection_kLa8g8",
+    "section_newsletter_4M8zmg",
     "section_split_images_XTd8pT",
     "section_icons_row_7hW7ee"
   ]
