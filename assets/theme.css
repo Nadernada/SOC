@@ -17309,7 +17309,7 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   width: 100%;
   height: 100%;
   background: var(--black);
-  border: 2px solid var(--white);
+  border: 1px solid var(--white);
   border-radius: 50%;
   font-size: 0;
   cursor: pointer;
