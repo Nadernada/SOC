@@ -265,15 +265,15 @@
         "image_location": "right",
         "image_width": "standard",
         "image": "shopify://shop_images/Screenshot_2025-07-22_at_20.06.24.png",
-        "subheading": "",
-        "title": "<p>Everything's on sale</p>",
+        "subheading": "material",
+        "title": "<p>premuim material</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#ffffff",
         "highlight_text_color": "#ffffff",
         "heading_size": 130,
         "content": "<p>Made from 100% recycled materials, excluding decorations & trim, for a first step towards a better future.We're committed to making a positive impact on the environment, and this product is a reflection of that commitment. Crafted entirely from 100% recycled materials (excluding decorations and trim), this item represents our first step towards a more sustainable future.</p>",
         "text_alignment": "left",
-        "button_text": "eeee",
+        "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
         "button_style": "btn--solid",
@@ -293,7 +293,7 @@
         "acordion-0": {
           "type": "text",
           "settings": {
-            "title": "Heading",
+            "title": "FAQ NUMBER1",
             "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.</p>"
           }
         },
@@ -328,8 +328,8 @@
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
-        "title": "Frequently Asked Questions",
-        "subheading": "",
+        "title": "FAQ",
+        "subheading": "Popular questions from our customers",
         "text": "",
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
