@@ -32371,3 +32371,11 @@ search-form mark {
      display: inline-block;
      padding: 16px 32px;
 }
+#Email--template--25608077705600__section_newsletter_4M8zmg {
+  color: black; /* typed text color */
+}
+
+#Email--template--25608077705600__section_newsletter_4M8zmg::placeholder {
+  color: black; /* placeholder text color */
+  opacity: 1;   /* make sure it's fully visible */
+}
