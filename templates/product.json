@@ -12,13 +12,6 @@
     "main": {
       "type": "product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "subheading": "breadcrumbs",
-            "padding_bottom": 20
-          }
-        },
         "inventory_countdown": {
           "type": "inventory_countdown",
           "settings": {
@@ -27,12 +20,19 @@
             "padding_bottom": 20
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "padding_bottom": 20
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
             "show_labels": true,
             "show_quantity": false,
-            "show_payment_button": true,
+            "show_payment_button": false,
             "enable_subscriptions_selectors": true,
             "padding_bottom": 20
           }
@@ -45,8 +45,9 @@
         },
         "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
           "type": "icon",
+          "disabled": true,
           "settings": {
-            "icon_name": "eco-friendly",
+            "icon_name": "package",
             "icon_color": "",
             "icon_width": 20,
             "icon_text": "Highlight or Feature",
@@ -54,6 +55,16 @@
             "width": "full",
             "text_alignment": "left",
             "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_gnXFq3": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Product Details",
+            "heading_style": "font-body",
+            "accordion_text": "<p>The design features a sleek tribute to the Ferrari F40, celebrating the timeless elegance and performance of this legendary supercar. Each shirt comes in a premium box, adding a touch of luxury to your purchase.<br/><br/>With its oversized fit, this t-shirt offers a contemporary, relaxed look. For those who prefer a more traditional fit, we recommend ordering one size smaller.</p>",
+            "accordion_page": "",
             "padding_bottom": 20
           }
         },
@@ -92,6 +103,7 @@
         },
         "upsell": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "product_list": [],
             "padding_bottom": 20
@@ -99,11 +111,12 @@
         }
       },
       "block_order": [
-        "title",
         "inventory_countdown",
+        "title",
         "form",
         "description",
         "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "product_accordion_gnXFq3",
         "product_accordion",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
@@ -111,15 +124,15 @@
       ],
       "settings": {
         "product_sticky_enable": true,
-        "image_layout": "grid",
-        "image_width": "large",
+        "image_layout": "stacked",
+        "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": true,
         "enable_video_looping": false,
         "bg_color": "",
         "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "overlapping-images-0": {
