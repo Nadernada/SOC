@@ -17619,6 +17619,7 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
 
 .collection-promo__body {
   width: 100%;
+  padding-bottom: 30px;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
