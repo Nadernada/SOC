@@ -5913,15 +5913,24 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
   margin-left: auto;
   margin-right: auto;
 }
-
-.overlay {
+collection-promo__bg .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
-  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  background: none;
+  pointer-events: none;
+}
+figure .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
   pointer-events: none;
 }
 
