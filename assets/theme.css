@@ -4704,6 +4704,7 @@ label.error {
 }
 .text-center .input-group, .item--center .input-group, .item--bottom-center .input-group, .item--top-center .input-group, .align--top-center .input-group, .align--middle-center .input-group, .align--middle-split .input-group, .align--bottom-center .input-group {
   justify-content: center;
+  border: 1px solid black;
   background-color: white;
 }
 @media only screen and (min-width: 768px) {
@@ -32372,10 +32373,10 @@ search-form mark {
      padding: 16px 32px;
 }
 #Email--template--25608077705600__section_newsletter_4M8zmg {
-  color: black; /* typed text color */
+  color: black; 
 }
 
 #Email--template--25608077705600__section_newsletter_4M8zmg::placeholder {
-  color: black; /* placeholder text color */
-  opacity: 1;   /* make sure it's fully visible */
+  color: black;
+  opacity: 1;  
 }
