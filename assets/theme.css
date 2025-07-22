@@ -22399,6 +22399,7 @@ search-popdown details > summary:first-of-type {
 .newsletter-form .input-group__field,
 .newsletter-form .input-group__btn--icon {
   background: transparent;
+  color: black;
 }
 
 .newsletter-form.has-error .errors {
