@@ -20740,6 +20740,7 @@ search-popdown details > summary:first-of-type {
 
 .image-with-text__content-items {
   position: relative;
+  color: white;
   z-index: 3;
 }
 .image-with-text__content-items .subheading-text, .image-with-text__content-items .product__badge__item,
