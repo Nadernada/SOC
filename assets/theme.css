@@ -4704,6 +4704,7 @@ label.error {
 }
 .text-center .input-group, .item--center .input-group, .item--bottom-center .input-group, .item--top-center .input-group, .align--top-center .input-group, .align--middle-center .input-group, .align--middle-split .input-group, .align--bottom-center .input-group {
   justify-content: center;
+  background-color: white;
 }
 @media only screen and (min-width: 768px) {
   .text-right .input-group, .item--right .input-group, .item--bottom-right .input-group, .item--top-right .input-group, .align--top-right .input-group, .align--middle-right .input-group, .align--middle-split .input-group, .align--bottom-right .input-group {
