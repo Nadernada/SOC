@@ -6599,6 +6599,7 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
 }
 .aos-initialized [data-aos^=fade].aos-animate {
   opacity: 1;
+  color: white;
   transform: translateZ(0);
 }
 .aos-initialized [data-aos=fade-up] {
