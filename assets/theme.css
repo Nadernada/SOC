@@ -5587,7 +5587,7 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
 }
 
 .body--rounded-corners {
-  --radius: 8px;
+  /* --radius: 8px; */
   --radius-medium: 5px;
   --radius-small: 4px;
   --radius-large: 8px;
