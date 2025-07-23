@@ -32388,6 +32388,8 @@ search-form mark {
 .btn-text {
     margin-right: 4em;
     margin-left: 0.3em;
+  font-size: medium;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .slide__btn {
