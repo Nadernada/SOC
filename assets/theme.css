@@ -22397,6 +22397,7 @@ search-popdown details > summary:first-of-type {
 
 .newsletter-section__entry h2 {
   color: inherit;
+  font-size: 40px;
 }
 
 /*=== Newsletter form ===*/
