@@ -8940,6 +8940,7 @@ section:hover .flickity-enabled > .flickity-prev-next-button:not(:disabled):hove
 .announcement__slider > .announcement__slide .ticker--animated,
 .is-selected .ticker--animated {
   animation-play-state: running;
+  margin-left: 7px;
 }
 
 .ticker__comparitor {
