@@ -25581,9 +25581,9 @@ search-form mark {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .btn--half .product__submit__buttons {
+  /* .btn--half .product__submit__buttons {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+  } */
   .btn--half.variant--soldout .product__submit__holder--notification .product__submit__buttons {
     grid-template-columns: minmax(0, 1fr);
   }
