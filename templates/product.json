@@ -27,6 +27,12 @@
             "padding_bottom": 20
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -34,12 +40,6 @@
             "show_quantity": false,
             "show_payment_button": false,
             "enable_subscriptions_selectors": true,
-            "padding_bottom": 20
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
             "padding_bottom": 20
           }
         },
@@ -113,8 +113,8 @@
       "block_order": [
         "inventory_countdown",
         "title",
-        "form",
         "description",
+        "form",
         "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
         "product_accordion_gnXFq3",
         "product_accordion",
@@ -293,28 +293,28 @@
         "acordion-0": {
           "type": "text",
           "settings": {
-            "title": "FAQ NUMBER1",
+            "title": "FAQ NUMBER 1",
             "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.</p>"
           }
         },
         "acordion-1": {
           "type": "text",
           "settings": {
-            "title": "Heading",
+            "title": "FAQ NUMBER 3",
             "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.</p>"
           }
         },
         "acordion-2": {
           "type": "text",
           "settings": {
-            "title": "Heading",
+            "title": "FAQ NUMBER 2",
             "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.</p>"
           }
         },
         "d0defd0d-94c3-403c-bd36-dc2f140a104f": {
           "type": "text",
           "settings": {
-            "title": "Heading",
+            "title": "FAQ NUMBER 4",
             "text": "<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.</p>"
           }
         }
