@@ -32393,3 +32393,7 @@ search-form mark {
   font-size: medium;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.btn-arrow {
+  font-size: 1.2em;
+  font-weight: 700;
+}
