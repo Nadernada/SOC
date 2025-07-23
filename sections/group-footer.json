@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
@@ -5,52 +14,97 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "logo_GVYc9r": {
+          "type": "logo",
+          "settings": {
+            "alignment": "text-left",
+            "image": "shopify://shop_images/ms-icon-310x310.png",
+            "logo_width": 70,
+            "show_shop_name": true,
+            "text": "",
+            "column_width": "25"
+          }
+        },
         "footer-block-0": {
           "type": "link",
+          "disabled": true,
           "settings": {
+            "alignment": "text-left",
             "menu": "main-menu",
-            "title": "Shop"
+            "title": "Shop",
+            "column_width": "20"
+          }
+        },
+        "blog_JckLwe": {
+          "type": "blog",
+          "settings": {
+            "alignment": "text-left",
+            "title": "Supercar Owners Circle Store",
+            "blog": "",
+            "layout": "articles",
+            "column_width": "25"
           }
         },
         "footer-block-1": {
           "type": "link",
           "settings": {
+            "alignment": "text-left",
             "menu": "footer",
-            "title": "Helpful Links"
+            "title": "Helpful Links",
+            "column_width": "20"
           }
         },
         "footer-block-2": {
           "type": "text",
           "settings": {
+            "alignment": "text-left",
             "title": "Our Mission",
-            "footer_text": "<p>Leave your customers with a final message about your brand in this rich text block.<\/p>"
+            "footer_text": "<p>Leave your customers with a final message about your brand in this rich text block.</p>",
+            "column_width": "30"
           }
         },
         "footer-block-3": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
+            "alignment": "text-left",
             "title": "Newsletter",
-            "text": "<p>Stay up to date with the new collections, products and exclusive offers.<\/p>"
+            "uppercase_heading": false,
+            "heading_size": 100,
+            "text": "<p>Stay up to date with the new collections, products and exclusive offers.</p>",
+            "button_text": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid",
+            "column_width": "30"
           }
         }
       },
       "block_order": [
+        "logo_GVYc9r",
         "footer-block-0",
+        "blog_JckLwe",
         "footer-block-1",
         "footer-block-2",
         "footer-block-3"
       ],
       "settings": {
-        "width": "wrapper",
-        "show_footer_wave": false,
+        "show_footer_wave": true,
+        "enable_footer_parallax": true,
+        "increase_border_radius": true,
+        "bottom_bar_alignment": "text-left",
         "show_social_links": true,
+        "enable_follow_on_shop": true,
         "show_payment_icons": true,
-        "bottom_menu": "",
+        "bottom_menu": "footer",
         "color_text": "#ffffff",
         "color_bg": "#000000",
         "color_border": "#ffffff",
         "show_locale_selector": true,
-        "show_country_selector": true
+        "show_country_selector": true,
+        "show_country_flag": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },

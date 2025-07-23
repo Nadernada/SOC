@@ -73,6 +73,7 @@
     "enable_additional_buttons": true,
     "empty_cart_heading": "",
     "empty_cart_heading_size": 100,
+    "empty_cart_collection_list": [],
     "empty_cart_collection_columns": "2",
     "empty_cart_button_text": "",
     "empty_cart_message": "",
