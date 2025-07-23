@@ -398,7 +398,7 @@
           "type": "text",
           "settings": {
             "icon_name": "none",
-            "title": "New Customers Get 5% Off",
+            "title": "NEW CUSTOMERS GET 5% OFF",
             "text": "<p>Available on your first purchase</p>"
           }
         },
@@ -406,7 +406,7 @@
           "type": "text",
           "settings": {
             "icon_name": "none",
-            "title": "100% Official Merchandise",
+            "title": "100% OFFICIAL MERCHANDISE",
             "text": "<p>Wear it with pride</p>"
           }
         },
@@ -414,7 +414,7 @@
           "type": "text",
           "settings": {
             "icon_name": "none",
-            "title": "Worldwide Shipping",
+            "title": "WORLDWIDE SHIPPING",
             "text": "<p>Easy delivery to your location, wherever you are</p>"
           }
         }
