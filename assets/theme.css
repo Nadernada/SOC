@@ -32396,7 +32396,7 @@ search-form mark {
   display: inline-flex;
   align-items: center;
   font-size: medium;
-  font-family: "Gotham", sans-serif;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .btn-arrow {
   margin-right: 3px;
