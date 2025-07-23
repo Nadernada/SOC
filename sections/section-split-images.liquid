@@ -291,8 +291,8 @@
                 {% endif %}
               >
               <a class="slide__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}" href="{{ button_1_link }}">
-               <span class="btn-text">SIGN UP</span>
-               <span class="btn-arrow">→</span>
+               <span class="btn-text">{{ button_1_text | escape }}</span>
+               <span class="btn-arrow">{% render 'icon-arrow-right-bold' %}</span>
               </a>
 
               </div>
