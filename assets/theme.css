@@ -29370,8 +29370,8 @@ search-form mark {
     display: block;
   }
 }
-.slide__btn::before {
-  content: "→";
+.slide__btn {
+  /* content: "→"; */
   margin-left: 0.4em;
 }
 
