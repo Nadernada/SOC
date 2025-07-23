@@ -32407,3 +32407,7 @@ search-form mark {
   stroke: currentColor;
   fill: currentColor; 
 }
+.btn {
+  display: inline-flex;
+  align-items: center;
+}
