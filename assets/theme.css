@@ -29370,6 +29370,10 @@ search-form mark {
     display: block;
   }
 }
+.slide__btn {
+  /* content: "→"; */
+  margin-left: 0.4em;
+}
 
 .video-text-link {
   font-size: calc(0.875rem * var(--adjust-body));
@@ -32384,4 +32388,15 @@ search-form mark {
 #Email--template--25608077705600__section_newsletter_4M8zmg::placeholder {
   color: black;
   opacity: 1;  
+}
+.btn-text {
+  margin-right: 0.4em;
+}
+
+.btn-arrow {
+  transition: transform 0.3s ease;
+}
+
+.slide__btn:hover .btn-arrow {
+  transform: translateX(4px);
 }
