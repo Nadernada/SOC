@@ -32391,10 +32391,14 @@ search-form mark {
 }
 
 .slide__btn {
+  display: inline-flex;
   align-items: center;
-  text-align: center;
   font-size: medium;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-arrow {
+  display: flex;
+  align-items: center;
 }
 .btn-arrow svg {
   width: 1.2em;
