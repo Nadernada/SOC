@@ -4750,7 +4750,7 @@ label.error {
 }
 .input-group--inline .input-group__field {
   width: 100%;
-  border-right: 0;
+  border: 0;
   border-radius: var(--RADIUS) 0 0 var(--RADIUS);
 }
 .input-group--inline .input-group__btn--icon {
