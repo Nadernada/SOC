@@ -138,7 +138,7 @@
         "text_V6X4EM": {
           "type": "text",
           "settings": {
-            "text": "<p> -</p>",
+            "text": "<p>—</p>",
             "text_color": "#ffffff",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
