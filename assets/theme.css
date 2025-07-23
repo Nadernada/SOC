@@ -32386,7 +32386,8 @@ search-form mark {
   opacity: 1;  
 }
 .btn-text {
-  margin-right: 4em;
+    margin-right: 4em;
+    margin-left: 0.3em;
 }
 
 .slide__btn {
