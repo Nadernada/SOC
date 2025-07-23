@@ -32391,6 +32391,8 @@ search-form mark {
 }
 
 .slide__btn {
+  align-items: center;
+  text-align: center;
   font-size: medium;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
