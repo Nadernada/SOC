@@ -5722,9 +5722,9 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
 .body--rounded-corners .product__badge__item {
   border-radius: var(--radius-small);
 }
-.body--rounded-corners .custom-scrollbar {
+/* .body--rounded-corners .custom-scrollbar {
   --radius-scrollbar: 3px;
-}
+} */
 .body--rounded-corners .product__subs__group:first-of-type {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
@@ -5886,9 +5886,9 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
   }
 }
 
-/* .body--rounded-corners-large {
+.body--rounded-corners-large {
   --radius-large: 34px;
-} */
+}
 .body--rounded-corners-large .section-footer:not(.section-footer--parallax) {
   position: relative;
   z-index: 0;
