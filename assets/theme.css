@@ -5886,9 +5886,9 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
   }
 }
 
-.body--rounded-corners-large {
+/* .body--rounded-corners-large {
   --radius-large: 34px;
-}
+} */
 .body--rounded-corners-large .section-footer:not(.section-footer--parallax) {
   position: relative;
   z-index: 0;
