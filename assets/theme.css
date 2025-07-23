@@ -32394,3 +32394,9 @@ search-form mark {
   font-size: medium;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.btn-arrow svg {
+  width: 1.2em;
+  height: 1.2em;
+  stroke: currentColor;
+  fill: currentColor; 
+}
