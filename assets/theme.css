@@ -32389,10 +32389,7 @@ search-form mark {
   margin-right: 5em;
 }
 
-.btn-arrow {
-  transition: transform 0.3s ease;
-}
-
-.slide__btn:hover .btn-arrow {
-  transform: translateX(4px);
+.slide__btn {
+  font-size: medium;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
