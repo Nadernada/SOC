@@ -184,7 +184,7 @@
         "type_style": "font-heading",
         "text_size": 300,
         "letter_spacing": 0,
-        "message_spacing": 0,
+        "message_spacing": 5,
         "bg_color": "#000000",
         "gradient": "",
         "color": "#000000",
