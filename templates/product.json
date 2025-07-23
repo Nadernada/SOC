@@ -378,25 +378,25 @@
         "icon-0": {
           "type": "text",
           "settings": {
-            "icon_name": "truck",
-            "title": "Free Shipping",
-            "text": "<p>on all order over $99</p>"
+            "icon_name": "none",
+            "title": "New Customers Get 5% Off",
+            "text": "<p>Available on your first purchase</p>"
           }
         },
         "icon-1": {
           "type": "text",
           "settings": {
-            "icon_name": "check",
-            "title": "Free Returns",
-            "text": "<p>within 30 days of purchase</p>"
+            "icon_name": "none",
+            "title": "100% Official Merchandise",
+            "text": "<p>Wear it with pride</p>"
           }
         },
         "icon-2": {
           "type": "text",
           "settings": {
-            "icon_name": "eco-friendly",
-            "title": "1% Donated Annually",
-            "text": "<p>to forest conservation</p>"
+            "icon_name": "none",
+            "title": "Worldwide Shipping",
+            "text": "<p>Easy delivery to your location, wherever you are</p>"
           }
         }
       },
@@ -415,9 +415,9 @@
         "show_horizontal_borders": true,
         "heading_size": 120,
         "text_size": 100,
-        "bg_color": "",
-        "text_color": "#333333",
-        "box_color": "",
+        "bg_color": "#000000",
+        "text_color": "#ffffff",
+        "box_color": "#000000",
         "color_border": "#333333",
         "button_text": "",
         "button_link": "",
