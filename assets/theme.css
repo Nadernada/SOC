@@ -29370,10 +29370,6 @@ search-form mark {
     display: block;
   }
 }
-.slide__btn {
-  /* content: "→"; */
-  margin-left: 0.4em;
-}
 
 .video-text-link {
   font-size: calc(0.875rem * var(--adjust-body));
