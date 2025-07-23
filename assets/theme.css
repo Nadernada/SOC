@@ -22374,6 +22374,7 @@ search-popdown details > summary:first-of-type {
   height: 100%;
   position: relative;
   z-index: 10;
+  padding-left: 25px;
 }
 .newsletter-section .shopify-block {
   width: 100%;
