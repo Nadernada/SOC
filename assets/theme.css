@@ -32415,3 +32415,6 @@ search-form mark {
   display: inline-flex;
   align-items: center;
 }
+.newsletter-heading {
+  font-size: 40px;
+}
