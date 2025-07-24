@@ -459,7 +459,7 @@ sub {
 .section-header__subheading,
 .subheading-text,
 .product__badge__item {
-  font-family: var(--FONT-STACK-SUBHEADING);
+  font-family:  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: var(--FONT-WEIGHT-SUBHEADING);
   font-size: calc(0.875rem * var(--FONT-ADJUST-SUBHEADING));
   text-transform: var(--SUBHEADING-TEXT-CAPS);
