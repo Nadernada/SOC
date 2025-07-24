@@ -19362,7 +19362,7 @@ search-popdown details > summary:first-of-type {
 
 .icons-row--borders-horizontal {
   /* border-top: var(--BORDER-WIDTH) solid var(--border); */
-  border-bottom: var(--BORDER-WIDTH) solid var(--border);
+  border-bottom: var(--BORDER-WIDTH) solid #d3d3d3;
 }
 
 .icons-row__headings {
