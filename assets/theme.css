@@ -155,7 +155,7 @@ body {
 }
 
 body {
-  font-family: var(--FONT-STACK-BODY);
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-style: var(--FONT-STYLE-BODY);
   line-height: 1.5625;
