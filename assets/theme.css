@@ -32420,3 +32420,8 @@ search-form mark {
 .newsletter-heading {
   font-size: 40px;
 }
+.lazy-image--cover img{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%);
+    pointer-events: none;
+    z-index: 2;
+}
