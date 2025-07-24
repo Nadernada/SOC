@@ -366,7 +366,7 @@
         "layout_mobile": "grid",
         "width": "wrapper",
         "padding_top": 30,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     }
   },
