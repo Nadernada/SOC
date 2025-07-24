@@ -32442,7 +32442,7 @@ search-form mark {
 .radio__fieldset--rectangle {
   display: flex;
   align-items: center;
-  gap: 1rem; 
+  gap: 1.5rem; 
   flex-wrap: wrap; 
 }
 .radio__buttons {
