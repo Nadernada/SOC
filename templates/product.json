@@ -150,7 +150,7 @@
       ],
       "name": "Split images",
       "settings": {
-        "image_height": "six-fifty-height",
+        "image_height": "five-fifty-height",
         "enable_mobile_height": false,
         "mobile_image_height": "five-fifty-height-mobile",
         "mobile_layout": "split",
