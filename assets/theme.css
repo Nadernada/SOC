@@ -3456,7 +3456,7 @@ search-form[loading] .predictive-search__loader {
     width: calc((var(--wrapper-width) - var(--grid-gutter)) / 2);
   }
   .one-third {
-    width: calc((var(--wrapper-width) - var(--grid-gutter) * 2) / 3);
+    width: 25%;
   }
   .one-quarter {
     width: calc((var(--wrapper-width) - var(--grid-gutter) * 3) / 4);
