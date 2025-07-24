@@ -10712,9 +10712,9 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
 .cart-drawer__body .cart__widgets:has(.cart-notes.hidden) {
   border: none;
 }
-.cart-drawer__body .cart__widgets:has(.product-upsell__holder), .cart-drawer__body .cart__widgets:has(.cart__widget__wrapper) {
+/* .cart-drawer__body .cart__widgets:has(.product-upsell__holder), .cart-drawer__body .cart__widgets:has(.cart__widget__wrapper) {
   border-top: var(--BORDER-WIDTH) solid var(--text);
-}
+} */
 .cart-drawer__body .cart__pair {
   padding: var(--inner);
   margin-bottom: 0;
