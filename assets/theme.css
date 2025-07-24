@@ -24402,7 +24402,7 @@ search-form mark {
 }
 
 .product__title {
-  font-size: calc(2rem * var(--adjust-heading));
+  font-size: calc(3rem * var(--adjust-heading));
   margin-bottom: 0;
 }
 
