@@ -135,20 +135,45 @@
         "padding_bottom": 0
       }
     },
-    "section_image_xU4fxQ": {
-      "type": "section-image",
-      "name": "Image",
+    "section_split_images_GcyMbj": {
+      "type": "section-split-images",
+      "blocks": {
+        "image_MeHY36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_4_2dacc80a-a4ce-4025-8dcb-08d5da085fc3.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_MeHY36"
+      ],
+      "name": "Split images",
       "settings": {
-        "image": "shopify://shop_images/image_4_2dacc80a-a4ce-4025-8dcb-08d5da085fc3.png",
-        "height": "original-height",
+        "image_height": "six-fifty-height",
         "enable_mobile_height": false,
-        "mobile_height": "original-height-mobile",
-        "enable_stretch": true,
-        "image_position": "center",
-        "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "middle-center",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 120,
+        "text": "",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--solid-border",
+        "button_1_size": "btn--small",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--small"
       }
     },
     "section_image_with_text_p6nrCn": {
@@ -347,7 +372,7 @@
   },
   "order": [
     "main",
-    "section_image_xU4fxQ",
+    "section_split_images_GcyMbj",
     "section_image_with_text_p6nrCn",
     "tabs",
     "related",
