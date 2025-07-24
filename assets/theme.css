@@ -11081,7 +11081,6 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   }
 }
 .product__selectors .selector-wrapper {
-  margin-right: var(--form-left);
   font-size: 0;
 }
 .product__selectors .selector-wrapper[data-option-position="1"] {
