@@ -132,7 +132,7 @@
         "bg_color": "",
         "width": "wrapper",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 30
       }
     },
     "section_split_images_GcyMbj": {
@@ -160,8 +160,8 @@
         "text_color": "text-light",
         "title": "",
         "heading_highlight_type": "italics",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 120,
         "text": "",
         "button_1_text": "",
@@ -308,7 +308,7 @@
         "overlay_opacity": 10,
         "width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 100
       }
     },
     "icons": {
