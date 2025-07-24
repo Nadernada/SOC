@@ -32440,3 +32440,22 @@ search-form mark {
     pointer-events: none;
     z-index: 2;
 }
+.radio__fieldset--rectangle {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.radio__fieldset--rectangle .radio__legend {
+  display: inline-flex !important;
+  width: auto !important;
+  margin-bottom: 0 !important;
+  font-weight: bold;
+}
+
+.radio__fieldset--rectangle .radio__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
