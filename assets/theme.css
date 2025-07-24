@@ -25822,7 +25822,6 @@ search-form mark {
   --text-lighten: var(--upsells-text-lighten);
   --disabled-grey-darken: var(--upsells-disabled-grey-darken);
   --inner: 12px;
-  --border-color: var(--upsells-border, transparent);
   border: var(--BORDER-WIDTH) solid var(--border-color);
   padding: var(--inner);
   width: 100%;
