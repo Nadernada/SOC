@@ -25516,15 +25516,15 @@ search-form mark {
 }
 .product__form .btn--submit span {
   transition: opacity 0.3s ease;
-  font-family: Gotham;
-font-weight: 500;
-font-style: Medium;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px; 
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .product__form .btn--submit.is-loading {
   opacity: 1;
