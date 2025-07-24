@@ -26123,6 +26123,7 @@ search-form mark {
 .product-upsell__holder--cart .product-upsell__btn,
 .product-upsell__holder--cart .product-upsell__variant-title {
   font-size: calc(0.6875rem * var(--adjust-body));
+  color:black;
 }
 
 /*================ Siblings - PDP ================*/
