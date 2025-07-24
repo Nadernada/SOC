@@ -5303,10 +5303,10 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
     padding-bottom: 10px;
   }
 }
-.wavy .wave-svg {
+/* .wavy .wave-svg {
   display: block;
 }
-
+ */
 .wave-svg {
   --wave-height: 57px;
   position: absolute;
