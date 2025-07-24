@@ -11203,7 +11203,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 
 /* = both radio and swatch = */
 .radio__legend {
-  display: block;
+  /* display: block; */
   margin: 0;
   width: 100%;
   z-index: 1;
