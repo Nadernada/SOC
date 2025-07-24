@@ -1381,7 +1381,7 @@ input.btn--solid-border.shopify-payment-button__button--unbranded,
 /*=== Button Black ====*/
 .btn--black, .btn--black .shopify-payment-button__button--unbranded {
   --btn-border: var(--black);
-  --btn-bg: var(--black);
+  --btn-bg: #ECC76F;
   --btn-text: var(--white);
   --btn-text-alpha-10: var(--white-alpha-10);
   --btn-bg-hover: var(--white-alpha-50);
