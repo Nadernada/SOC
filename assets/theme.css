@@ -11283,6 +11283,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   flex-wrap: wrap;
   margin: 0 -12px -12px 0;
   border: 0;
+  width: 100%;
   padding: 0;
 }
 @media only screen and (max-width: 767px) {
@@ -32438,23 +32439,4 @@ search-form mark {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 60%);
     pointer-events: none;
     z-index: 2;
-}
-.radio__fieldset--rectangle {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.radio__fieldset--rectangle .radio__legend {
-  display: inline-flex !important;
-  width: auto !important;
-  margin-bottom: 0 !important;
-  align-items: center;
-}
-
-.radio__fieldset--rectangle .radio__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
 }
