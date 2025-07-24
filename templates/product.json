@@ -124,7 +124,7 @@
       ],
       "settings": {
         "product_sticky_enable": true,
-        "image_layout": "grid",
+        "image_layout": "carousel",
         "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": true,
@@ -260,7 +260,7 @@
         "enable_tabs": true,
         "columns_mobile": "1",
         "type_style": "subheading-text",
-        "tab_heading_size": 120,
+        "tab_heading_size": 115,
         "bg_color": "",
         "width": "wrapper--full-padded",
         "padding_top": 60,
