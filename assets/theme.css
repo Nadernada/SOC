@@ -25538,6 +25538,7 @@ search-form mark {
 .product__form .btn, .product__form .shopify-payment-button__button--unbranded,
 .product__form .shopify-payment-button {
   width: 100%;
+  color: black;
 }
 .product__form .errors {
   margin-bottom: 0;
