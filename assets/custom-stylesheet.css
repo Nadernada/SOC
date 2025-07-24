@@ -305,7 +305,7 @@ html:not(:lang(ar)) .arabic-banner {
 .radio__fieldset .radio__input:checked ~ .radio__label {
   border-color: var(--accent);
   background-color: var(--accent);
-  color: white;
+  color: black;
 }
 
 .two-inputs-wrapper {
