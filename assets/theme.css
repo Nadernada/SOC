@@ -11817,7 +11817,8 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 }
 
 .variant__countdown--in {
-  --dot-color: var(--COLOR-SUCCESS);
+  --dot-color: #ECC76F;
+;
 }
 
 .variant__countdown--low {
