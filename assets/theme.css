@@ -32439,3 +32439,14 @@ search-form mark {
     pointer-events: none;
     z-index: 2;
 }
+.radio__fieldset--rectangle {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+  flex-wrap: wrap; 
+}
+.radio__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; 
+}
