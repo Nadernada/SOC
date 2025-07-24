@@ -25825,7 +25825,7 @@ search-form mark {
   border: var(--BORDER-WIDTH) solid var(--border-color);
   padding: var(--inner);
   width: 100%;
-  background-color: var(--upsells-bg);
+  background-color: var(--accent);
   color: var(--upsells-text);
   transition: opacity 0.3s;
 }
