@@ -32464,3 +32464,8 @@ search-form mark {
   align-items: center;
   justify-content: center;
 }
+.product-upsell__btn-text {
+  text-decoration: underline !important;
+  text-decoration-color: black !important;
+  color: inherit; 
+}
