@@ -32457,6 +32457,7 @@ search-form mark {
   color: black !important;
   text-align: center;
   display: flex;
+  gap:8px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
