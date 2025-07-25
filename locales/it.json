@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Questo sito ha un supporto limitato per il tuo browser. Consigliamo di passare a Edge, Chrome, Safari o Firefox.",
@@ -183,7 +192,7 @@
       "continue_shopping": "Continua ad acquistare",
       "close_cart": "Chiudi carrello",
       "free_shipping_message_html": "Spendi <span data-free-shipping-amount=\"\">{{ amount }}<\/span> per poter usufruire della spedizione gratuita",
-      "qualified_shipping_message": "Congratulazioni! Il tuo ordine è idoneo alla spedizione gratuita"
+      "qualified_shipping_message": "Le spese di spedizione verranno applicate al momento del pagamento"
     },
     "label": {
       "product": "Prodotto",

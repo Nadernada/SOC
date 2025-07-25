@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Este sitio web tiene ciertas restriucciones de navegación. Le recomendamos utilizar buscadores como: Edge, Chrome, Safari o Firefox.",
@@ -183,7 +192,7 @@
       "close_cart": "Cerrar el carrito",
       "shipping_at_checkout": "Gastos de envío e impuestos calculados al finalizar la compra",
       "free_shipping_message_html": "Invierta <span data-free-shipping-amount=\"\">{{ amount }}</span> para calificar para el envío gratuito",
-      "qualified_shipping_message": "¡Felicidades! Su pedido califica para el envío GRATIS"
+      "qualified_shipping_message": "El envío se aplicará al finalizar la compra"
     },
     "label": {
       "product": "Producto",

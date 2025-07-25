@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Ce site Web a des limites de navigation. Il est recommandé d'utiliser un navigateur comme Edge, Chrome, Safari ou Firefox.",
@@ -183,7 +192,7 @@
       "continue_shopping": "Continuer vos achats",
       "close_cart": "Fermer le panier",
       "free_shipping_message_html": "Dépensez <span data-free-shipping-amount=\"\">{{ amount }}</span> pour bénéficier de la livraison gratuite",
-      "qualified_shipping_message": "Toutes nos félicitations! Tes commandes se qualifient pour des expeditions gratuites"
+      "qualified_shipping_message": "Les frais de livraison seront appliqués lors du passage en caisse"
     },
     "label": {
       "product": "Produit",

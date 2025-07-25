@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Acest site are suport limitat pentru browserul dvs. Vă recomandăm să treceți la Edge, Chrome, Safari sau Firefox.",
@@ -183,7 +192,7 @@
       "continue_shopping": "Continuă cumpărăturile",
       "close_cart": "Închide coșul",
       "free_shipping_message_html": "Cheltuie <span data-free-shipping-amount=\"\">{{ amount }}<\/span> pentru a beneficia de livrare gratuită",
-      "qualified_shipping_message": "Livrarea GRATUITĂ va fi aplicată la checkout"
+      "qualified_shipping_message": "Taxele de livrare vor fi aplicate la finalizarea comenzii"
     },
     "label": {
       "product": "Produs",
