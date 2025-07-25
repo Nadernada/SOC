@@ -32448,3 +32448,8 @@ search-form mark {
 #ProductPhoto--template--25608077541760__main .flickity-viewport {
   height: 504px !important; 
 }
+.cart__checkout,
+.cart__checkout .cart__total__money,
+.cart__checkout .money {
+  color: black !important;
+}
