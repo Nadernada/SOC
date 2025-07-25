@@ -11041,7 +11041,7 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
 .cart__item__remove {
   font-size: calc(0.75rem * var(--adjust-body));
   color: inherit;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   text-decoration: underline;
   text-decoration-thickness: var(--BORDER-WIDTH);
   transition: opacity 0.3s;
