@@ -11045,6 +11045,7 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   text-decoration: underline;
   text-decoration-thickness: var(--BORDER-WIDTH);
   transition: opacity 0.3s;
+  font-weight: bold;
   padding: 0 calc(var(--inner) / 2);
 }
 .cart-drawer .cart__item__remove {
