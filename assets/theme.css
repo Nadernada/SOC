@@ -11034,7 +11034,8 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   flex-flow: row wrap;
   align-items: center;
   margin-top: 10px;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap:10px;
 }
 
 .cart__item__remove {
