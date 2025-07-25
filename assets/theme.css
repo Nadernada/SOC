@@ -32455,9 +32455,10 @@ search-form mark {
 }
 .cart__checkout {
   color: black !important;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
+  gap:8px;
+  flex-direction: row;
   align-items: center;
-  width: 100%; 
-  padding: 0 16px;
+  justify-content: center;
 }
