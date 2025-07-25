@@ -32465,7 +32465,6 @@ search-form mark {
   justify-content: center;
 }
 .product-upsell__btn-text {
-  text-decoration: underline !important;
-  text-decoration-color: black !important;
-  color: inherit; 
+  text-decoration: none !important;        
+  border-bottom: 1px solid black !important; 
 }
