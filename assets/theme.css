@@ -16245,7 +16245,7 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   /* font-size: calc(0.6875rem * var(--adjust-badges)); */
   line-height: 1.2;
   transition: opacity 0.15s ease;
-  padding: 6px 8px;
+  padding: 8px 10px;
   height: auto;
 }
 @media only screen and (max-width: 479px) {
