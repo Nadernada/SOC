@@ -16240,6 +16240,8 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   background-color: var(--sale-bg);
   color: var(--sale-text);
   text-align: left;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
   /* font-size: calc(0.6875rem * var(--adjust-badges)); */
   line-height: 1.2;
   transition: opacity 0.15s ease;
