@@ -5719,9 +5719,9 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
 .body--rounded-corners .brick__block .product__media__container {
   border-radius: var(--radius) var(--radius) 0 0;
 }
-.body--rounded-corners .product__badge__item {
+/* .body--rounded-corners .product__badge__item {
   border-radius: var(--radius-small);
-}
+} */
 /* .body--rounded-corners .custom-scrollbar {
   --radius-scrollbar: 3px;
 } */
