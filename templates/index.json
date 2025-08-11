@@ -17,7 +17,7 @@
           "settings": {
             "width": "100",
             "image": "shopify://shop_images/image_3.png",
-            "overlay_opacity": 10,
+            "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
             "title": "Shop the Supercar Lifestyle",
@@ -255,15 +255,15 @@
           "settings": {
             "image": "shopify://shop_images/image_1.png",
             "position": 1,
-            "width": "half",
+            "width": "auto",
             "title": "<p>Shop all product</p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "rgba(0,0,0,0)",
-            "highlight_text_color": "#000000",
+            "heading_highlight_type": "underline",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
             "heading_size": 100,
-            "content": "Advertise a promotion or a sale",
+            "content": "",
             "text_size": 100,
-            "text_color": "text-dark",
+            "text_color": "text-light",
             "text_position": "bottom-left",
             "layout": "stacked",
             "overlay_opacity": 10,
@@ -356,7 +356,7 @@
         "direction": "ticker-rtl",
         "slider_speed": 7,
         "show_arrows": false,
-        "text_caps": false,
+        "text_caps": true,
         "type_style": "subheading-text",
         "text_size": 260,
         "letter_spacing": 0,
@@ -375,7 +375,7 @@
         "image_JLReaa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Frame_1171275658.png"
+            "image": "shopify://shop_images/image_4_2dacc80a-a4ce-4025-8dcb-08d5da085fc3.png"
           }
         }
       },
@@ -384,7 +384,7 @@
       ],
       "name": "Split images",
       "settings": {
-        "image_height": "three-quarters-height",
+        "image_height": "two-thirds-height",
         "enable_mobile_height": false,
         "mobile_image_height": "five-fifty-height-mobile",
         "mobile_layout": "split",
@@ -398,7 +398,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 140,
         "text": "From premium gear to unique memorabilia, find everything you need to express your love for performance and luxury, on and off the road.",
-        "button_1_text": "Learn More",
+        "button_1_text": "SIGN UP",
         "button_1_link": "",
         "button_1_color": "btn--secondary",
         "button_1_style": "btn--solid-border",
@@ -447,15 +447,15 @@
         "image": "shopify://shop_images/20191009_032913100_iOS_4.jpg",
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
-        "title": "Shop the Look",
-        "text": "<p>Unleash Your Inner Driver</p>",
+        "title": "",
+        "text": "<h1><strong>Unleash Your Inner Driver</strong></h1>",
         "text_alignment": "text-left",
         "show_hotspots": true,
-        "content_color": "text-dark",
+        "content_color": "text-light",
         "hotspot_color": "",
         "bg_color_secondary": false,
         "width": "wrapper",
-        "padding_top": 0,
+        "padding_top": 18,
         "padding_bottom": 50
       }
     },
