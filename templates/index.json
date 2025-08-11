@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "width": "100",
-            "image": "shopify://shop_images/Untitled_design_1.png",
+            "image": "shopify://shop_images/image_3.png",
             "overlay_opacity": 10,
             "text_position": "top-left",
             "subheading": "",
@@ -64,8 +64,8 @@
             "text": "<p>Luxury. Performance. Legacy.</p>",
             "size": 150,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         }
       },
@@ -394,8 +394,8 @@
         "text_color": "text-light",
         "title": "<p>The Supercar Lifestyle, Redefined</p>",
         "heading_highlight_type": "italics",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 200,
         "text": "From premium gear to unique memorabilia, find everything you need to express your love for performance and luxury, on and off the road.",
         "button_1_text": "Learn More",
@@ -468,8 +468,8 @@
             "text": "<p>\"A place where high-profile collectors come together with their special cars to celebrate a shared passion.\" </p>",
             "size": 195,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "subheading_pCJLfr": {
@@ -502,7 +502,9 @@
         "text_alignment": "left",
         "images_width": 750,
         "images_offset": 115,
+        "image_1": "shopify://shop_images/tb20191009_031455300_iOS_1_2.jpg",
         "image_link_1": "",
+        "image_2": "shopify://shop_images/IMG_2121_2.jpg",
         "image_link_2": "",
         "hide_image_2": true,
         "title": "<p>Where Passion Meets Performance</p>",
@@ -538,8 +540,8 @@
             "width": "auto",
             "title": "<p>Promotion title</p>",
             "heading_highlight_type": "circle",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
             "heading_size": 100,
             "content": "Advertise a promotion or a sale",
             "text_size": 100,
@@ -547,7 +549,7 @@
             "text_position": "center",
             "layout": "stacked",
             "overlay_opacity": 10,
-            "bg_color": "#D3D3D3",
+            "bg_color": "#d3d3d3",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--white",
@@ -569,8 +571,8 @@
         "text_alignment": "text-left",
         "title": "<p>Best Sellers</p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 185,
         "text": "",
         "text_size": 100,
