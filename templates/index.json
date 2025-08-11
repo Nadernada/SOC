@@ -384,7 +384,7 @@
       ],
       "name": "Split images",
       "settings": {
-        "image_height": "two-thirds-height",
+        "image_height": "three-quarters-height",
         "enable_mobile_height": false,
         "mobile_image_height": "five-fifty-height-mobile",
         "mobile_layout": "split",
