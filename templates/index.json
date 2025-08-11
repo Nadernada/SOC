@@ -421,6 +421,14 @@
             "position_y": 42
           }
         },
+        "product_KKqATa": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
         "section-look-0-block-1": {
           "type": "product",
           "settings": {
@@ -440,19 +448,20 @@
       },
       "block_order": [
         "section-look-0-block-0",
+        "product_KKqATa",
         "section-look-0-block-1",
         "section-look-0-block-2"
       ],
       "settings": {
         "image": "shopify://shop_images/20191009_032913100_iOS_4.jpg",
         "enable_aspect_ratio": true,
-        "main_image_aspect_ratio": 1,
+        "main_image_aspect_ratio": 1.1,
         "title": "",
-        "text": "<h1><strong>Unleash Your Inner Driver</strong></h1>",
+        "text": "<h1>Unleash Your </h1><h1>Inner Driver</h1>",
         "text_alignment": "text-left",
         "show_hotspots": true,
         "content_color": "text-light",
-        "hotspot_color": "",
+        "hotspot_color": "#ffffff",
         "bg_color_secondary": false,
         "width": "wrapper",
         "padding_top": 18,
@@ -465,8 +474,8 @@
         "heading_ABffjB": {
           "type": "heading",
           "settings": {
-            "text": "<p>\"A place where high-profile collectors come together with their special cars to celebrate a shared passion.\" </p>",
-            "size": 195,
+            "text": "<p>\"A place where high-profile collectors come together with their special cars </p><p>to celebrate a shared passion.\" </p>",
+            "size": 160,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -476,7 +485,7 @@
           "type": "subheading",
           "settings": {
             "text": "<p>CLASSIC DRIVER</p>",
-            "size": 100,
+            "size": 120,
             "margin_bottom": 16
           }
         }
@@ -507,12 +516,12 @@
         "image_2": "shopify://shop_images/IMG_2121_2.jpg",
         "image_link_2": "",
         "hide_image_2": true,
-        "title": "<p>Where Passion Meets Performance</p>",
+        "title": "<p>Where </p><p>Passion Meets Performance</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "description": "<p>Explore a curated collection celebrating the spirit of speed, precision, and automotive excellence. Designed for true supercar enthusiasts.</p>",
-        "heading_size": 140,
+        "heading_size": 120,
         "button_text": "",
         "button_link": "",
         "button_color": "btn--white",
