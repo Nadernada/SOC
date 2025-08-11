@@ -2819,7 +2819,6 @@ search-form[loading] .predictive-search__loader {
   --text-alpha-50: rgb(0 0 0 / 50%);
   --heading: var(--black);
   --overlay: var(--white);
-  color: var(--text);
 }
 .text-dark .backdrop--radial:before {
   background: radial-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 65%);
