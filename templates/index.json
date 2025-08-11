@@ -247,66 +247,68 @@
         "padding_bottom": 40
       }
     },
-    "section-collection-0": {
-      "type": "section-collection",
+    "section_tab_collections_P3YjGA": {
+      "type": "section-tab-collections",
       "blocks": {
-        "section-collection-0-block-0": {
-          "type": "promo",
+        "collection_FrFxWg": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/image_1.png",
-            "position": 1,
-            "width": "auto",
-            "title": "<p>Shop all product</p>",
-            "heading_highlight_type": "underline",
-            "highlight_color": "#ffffff",
-            "highlight_text_color": "#ffffff",
-            "heading_size": 100,
-            "content": "",
-            "text_size": 100,
-            "text_color": "text-light",
-            "text_position": "bottom-left",
-            "layout": "stacked",
+            "title": "Sale",
+            "tab_collection": "frontpage",
+            "number_of_products": 6,
+            "show_image": true,
+            "image": "{{ block.settings.tab_collection.image }}",
             "overlay_opacity": 10,
-            "bg_color": "#f7f7f7",
-            "button_text": "",
+            "heading": "",
+            "text_color": "text-light",
+            "button_text": "Shop All Products",
             "button_link": "",
             "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
+            "button_style": "btn--text",
+            "button_size": "btn--large"
+          }
+        },
+        "collection_WHdihb": {
+          "type": "collection",
+          "settings": {
+            "title": "New Arrivals",
+            "tab_collection": "frontpage",
+            "number_of_products": 6,
+            "show_image": true,
+            "image": "{{ block.settings.tab_collection.image }}",
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "button_text": "Shop All Products",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--text",
+            "button_size": "btn--large"
           }
         }
       },
       "block_order": [
-        "section-collection-0-block-0"
+        "collection_FrFxWg",
+        "collection_WHdihb"
       ],
+      "name": "Tab collections",
       "settings": {
-        "collection": "",
-        "products_layout": "carousel",
-        "number_of_products": 8,
-        "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
+        "image_aspect_ratio": 1.3,
         "text_alignment": "text-left",
         "title": "",
-        "heading_highlight_type": "italics",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 230,
-        "text": "<p>Trending now</p>",
-        "text_size": 125,
-        "button_text": "",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "button_product_text": "",
-        "button_product_link": "",
-        "button_product_color": "btn--black",
-        "button_product_style": "btn--solid",
-        "button_product_size": "btn--small",
+        "text": "",
+        "type_style": "subheading-text",
+        "tab_heading_size": 120,
+        "show_buttons": false,
+        "collection_button_text": "Shop Now",
+        "collection_button_color": "btn--black",
+        "collection_button_style": "btn--solid",
+        "collection_button_size": "btn--small",
         "bg_color_secondary": false,
-        "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
-        "padding_top": 20,
-        "padding_bottom": 10
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section-marquee-1": {
@@ -416,7 +418,7 @@
         "section-look-0-block-0": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "soc-classic-hoodie",
             "position_x": 64,
             "position_y": 42
           }
@@ -424,7 +426,7 @@
         "product_KKqATa": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "soc-cap",
             "position_x": 50,
             "position_y": 50
           }
@@ -432,25 +434,16 @@
         "section-look-0-block-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "soc-travel-bag",
             "position_x": 39,
             "position_y": 63
-          }
-        },
-        "section-look-0-block-2": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "position_x": 50,
-            "position_y": 50
           }
         }
       },
       "block_order": [
         "section-look-0-block-0",
         "product_KKqATa",
-        "section-look-0-block-1",
-        "section-look-0-block-2"
+        "section-look-0-block-1"
       ],
       "settings": {
         "image": "shopify://shop_images/20191009_032913100_iOS_4.jpg",
@@ -696,7 +689,7 @@
     "section_text_jVJLmd",
     "section-countdown-0",
     "section-grid-0",
-    "section-collection-0",
+    "section_tab_collections_P3YjGA",
     "section-marquee-1",
     "section_split_images_68fg69",
     "section-look-0",
