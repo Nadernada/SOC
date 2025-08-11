@@ -287,7 +287,7 @@
         "columns_mobile": "2",
         "text_alignment": "text-left",
         "title": "",
-        "heading_highlight_type": "circle",
+        "heading_highlight_type": "italics",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 230,
@@ -306,7 +306,7 @@
         "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
         "padding_top": 20,
-        "padding_bottom": 40
+        "padding_bottom": 10
       }
     },
     "section-marquee-1": {
