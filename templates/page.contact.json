@@ -108,7 +108,7 @@
         "checkbox_RnfcE7"
       ],
       "settings": {
-        "button_color": "btn--black",
+        "button_color": "btn--secondary",
         "button_style": "btn--solid",
         "button_size": "btn--large",
         "width": "wrapper--narrow",
