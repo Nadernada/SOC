@@ -4551,6 +4551,7 @@ img[loading].is-loading {
   text-decoration: underline !important;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 1px;
+  text-decoration-color: #D9D9D9;
   transition: text-decoration-thickness 0.2s ease;
 }
 
