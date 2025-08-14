@@ -18,202 +18,80 @@
         "padding_bottom": 0
       }
     },
-    "section_image_accordions_eAdXRV": {
-      "type": "section-image-accordions",
+    "section_banner_image_Dzg4Ty": {
+      "type": "section-banner-image",
       "blocks": {
-        "image_maFJHa": {
-          "type": "image",
+        "heading_ft7xhp": {
+          "type": "heading",
           "settings": {
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
+            "text": "<p>FAQs</p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
           }
         },
-        "image_H3nr9E": {
-          "type": "image",
+        "text_yfDXNz": {
+          "type": "text",
           "settings": {
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        },
-        "image_NbzkPW": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        },
-        "image_Ktmcxd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_4_2dacc80a-a4ce-4025-8dcb-08d5da085fc3.png",
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
+            "text": "<p>Here are the answers to some od our common questions.<br/>Still need a hand? Get in touch.</p>",
+            "size": 100
           }
         }
       },
       "block_order": [
-        "image_maFJHa",
-        "image_H3nr9E",
-        "image_NbzkPW",
-        "image_Ktmcxd"
+        "heading_ft7xhp",
+        "text_yfDXNz"
       ],
-      "disabled": true,
-      "name": "Image accordions",
+      "name": "Banner image",
       "settings": {
-        "accordion_height": "six-fifty-height",
+        "height": "two-thirds-height",
         "enable_mobile_height": false,
-        "mobile_section_height": "five-fifty-height-mobile",
-        "heading_size": 100,
-        "width": "wrapper--full",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_split_images_krCCk7": {
-      "type": "section-split-images",
-      "blocks": {
-        "image_HRfCUA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/f0e05eccffe1697421e2dfdaaaca2e0ffdd8f8ca.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_HRfCUA"
-      ],
-      "name": "Split images",
-      "settings": {
-        "image_height": "two-thirds-height",
-        "enable_mobile_height": false,
-        "mobile_image_height": "five-fifty-height-mobile",
-        "mobile_layout": "split",
-        "text_position": "middle-center",
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/f0e05eccffe1697421e2dfdaaaca2e0ffdd8f8ca.png",
         "overlay_opacity": 10,
-        "width": "wrapper--narrow",
-        "text_color": "text-light",
-        "title": "<p>Welcome to Palo Alto</p>",
-        "heading_highlight_type": "italics",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 120,
-        "text": "Describe in a few words your special products, collection, or brand.",
-        "button_1_text": "Learn More",
-        "button_1_link": "",
-        "button_1_color": "btn--white",
-        "button_1_style": "btn--solid-border",
-        "button_1_size": "btn--small",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_color": "btn--black",
-        "button_2_style": "btn--solid",
-        "button_2_size": "btn--small"
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "enable_card_scrolling": false,
+        "increase_border_radius": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-light"
       }
     },
     "accordion-section-1": {
       "type": "section-accordions",
       "blocks": {
-        "accordion_block_1_1": {
-          "type": "text",
-          "settings": {
-            "title": "Is my payment data safe with you?",
-            "text": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
-          }
-        },
-        "accordion_block_1_2": {
-          "type": "text",
-          "settings": {
-            "title": "Do you accept online payments?",
-            "text": "<p>Yes, we accept online payments. All payment processing and vital customer information is quick, easy, and secure.<br/></p><p>Learn more about our store's safe checkout experience (powered by Shopify) <a href=\"https://www.shopify.com/legal/terms#DataProtection\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms#DataProtection\">here</a>.</p>"
-          }
-        },
         "accordion_block_1_3": {
           "type": "text",
           "settings": {
-            "title": "Where can I learn more about the payment and processing on your store?",
-            "text": "<p>For more insight, you may also want to read Shopify’s Terms of Service <a href=\"https://www.shopify.com/legal/terms\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms\">here</a> or Privacy Statement <a href=\"https://www.shopify.com/legal/privacy\" target=\"_blank\" title=\"https://www.shopify.com/legal/privacy\">here</a>.</p>"
+            "title": "Do you offer international shipping?",
+            "text": "<p>Yes, we ship to various countries worldwide. Shipping fees and delivery times vary based on the destination.</p>"
           }
         },
         "accordion_block_1_4": {
           "type": "text",
           "settings": {
-            "title": "What forms of payment do you accept?",
+            "title": "What are the shipping costs?",
             "text": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express.</p>"
           }
         }
       },
       "block_order": [
-        "accordion_block_1_1",
-        "accordion_block_1_2",
         "accordion_block_1_3",
         "accordion_block_1_4"
       ],
       "settings": {
-        "layout": "two-columns",
+        "layout": "one-column",
         "show_accordion_divider": false,
-        "title": "Payments & Safety",
+        "title": "Shipping and Delivery",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -224,7 +102,7 @@
         "accordion_block_2_0": {
           "type": "text",
           "settings": {
-            "title": "How long does it take to get my products?",
+            "title": "What payment methods are accepted?",
             "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
           }
         },
@@ -232,48 +110,69 @@
           "type": "text",
           "settings": {
             "title": "How much does it cost?",
-            "text": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br/><br/>Here are the full details of our <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a>.</p>"
-          }
-        },
-        "accordion_block_2_2": {
-          "type": "text",
-          "settings": {
-            "title": "Is there free shipping?",
-            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
-          }
-        },
-        "accordion_block_2_3": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship internationally?",
-            "text": "<p>Yes, we ship our products all over the globe.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
-          }
-        },
-        "accordion_block_2_4": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship to my area?",
-            "text": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
+            "text": "<p>Can I modify or cancel my order after placing it?</p>"
           }
         }
       },
       "block_order": [
         "accordion_block_2_0",
-        "accordion_block_2_1",
-        "accordion_block_2_2",
-        "accordion_block_2_3",
-        "accordion_block_2_4"
+        "accordion_block_2_1"
       ],
       "settings": {
-        "layout": "two-columns",
+        "layout": "one-column",
         "show_accordion_divider": false,
-        "title": "Shipping & Delivery",
+        "title": "Ordering and Payment",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_wt7PUM": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_EeYnEn": {
+          "type": "text",
+          "settings": {
+            "title": "What types of products do you offer?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "text_yjFWeB": {
+          "type": "text",
+          "settings": {
+            "title": "Are all products authentic?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_w48yQt": {
+          "type": "text",
+          "settings": {
+            "title": "How can I find the right size?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_EeYnEn",
+        "text_yjFWeB",
+        "text_w48yQt"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": " Products and Availability",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -284,14 +183,14 @@
         "accordion_block_3_0": {
           "type": "text",
           "settings": {
-            "title": "Do you offer warranty for your products?",
+            "title": "What is your return policy?",
             "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
           }
         },
         "accordion_block_3_1": {
           "type": "text",
           "settings": {
-            "title": "Do you offer extended warranty?",
+            "title": "How do I initiate a return or exchange?",
             "text": "<p>An extended warranty can be added to your products for an additional cost.<br/><br/>Please get in touch for more information about extended warranties.</p>"
           }
         },
@@ -309,15 +208,15 @@
         "accordion_block_3_2"
       ],
       "settings": {
-        "layout": "two-columns",
+        "layout": "one-column",
         "show_accordion_divider": false,
-        "title": "Warranty & Repair",
+        "title": " Returns and Exchanges",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -328,56 +227,40 @@
         "accordion_block_4_0": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
+            "title": "How can I contact customer support?",
             "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
           }
         },
         "accordion_block_4_1": {
           "type": "text",
           "settings": {
-            "title": "How long after I complete a purchase can I ask for a refund?",
+            "title": "Do I need an account to place an order?",
             "text": "<p>A refund request can be submitted within a month after the purchase is made.</p>"
           }
         },
         "accordion_block_4_2": {
           "type": "text",
           "settings": {
-            "title": "How much can I get refunded?",
+            "title": "How can I reset my password?",
             "text": "<p>In the case when the<strong>product and packaging are unopened and undamaged</strong>, you are<strong>eligible</strong>for a full refund.<br/><br/>In the case when<strong>the packaging has been opened and the product has been used</strong>, you are<strong>eligible</strong>for a partial refund.<br/><br/>In the case when a<strong>product has been damaged</strong>, and the damage is not covered by your warranty, you are<strong>not eligible</strong>for a refund.<br/><br/>Please check our <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Service</a> to see if you're eligible for a refund.</p>"
-          }
-        },
-        "accordion_block_4_3": {
-          "type": "text",
-          "settings": {
-            "title": "Who pays the shipping costs in the case of a refund when the order doesn't have free shipping?",
-            "text": "<p>When an order does not include free shipping, all shipping costs (including the return shipping) are handled by the customer.</p>"
-          }
-        },
-        "accordion_block_4_4": {
-          "type": "text",
-          "settings": {
-            "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
-            "text": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer.</p>"
           }
         }
       },
       "block_order": [
         "accordion_block_4_0",
         "accordion_block_4_1",
-        "accordion_block_4_2",
-        "accordion_block_4_3",
-        "accordion_block_4_4"
+        "accordion_block_4_2"
       ],
       "settings": {
-        "layout": "two-columns",
+        "layout": "one-column",
         "show_accordion_divider": false,
-        "title": "Returns & Refunds",
+        "title": "Account and Support",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -385,10 +268,10 @@
   },
   "order": [
     "main",
-    "section_image_accordions_eAdXRV",
-    "section_split_images_krCCk7",
+    "section_banner_image_Dzg4Ty",
     "accordion-section-1",
     "accordion-section-2",
+    "section_accordions_wt7PUM",
     "accordion-section-3",
     "accordion-section-4"
   ]
