@@ -663,7 +663,6 @@ html:not(:lang(ar)) .arabic-banner {
   letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
-  width: 100%;
   padding: 15px 20px;
   border: none;
   border-radius: 0;
