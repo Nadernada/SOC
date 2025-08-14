@@ -45,18 +45,18 @@
       ],
       "name": "Banner image",
       "settings": {
-        "height": "two-thirds-height",
+        "height": "three-quarters-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/f0e05eccffe1697421e2dfdaaaca2e0ffdd8f8ca.png",
         "overlay_opacity": 10,
-        "transition": "zoom-out",
+        "transition": "fade",
         "enable_zoom_animation": true,
         "enable_card_scrolling": false,
         "increase_border_radius": true,
-        "text_width": "normal",
-        "text_position": "left",
-        "text_alignment": "text-left",
+        "text_width": "wide",
+        "text_position": "right",
+        "text_alignment": "text-right",
         "text_color": "text-light"
       }
     },
