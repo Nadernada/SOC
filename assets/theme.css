@@ -759,7 +759,7 @@ textarea,
 select {
   font-size: var(--FONT-SIZE-INPUT);
   border: var(--BORDER-WIDTH) solid var(--border);
-  background: #191919;
+  background: #161616;
   max-width: 100%;
   padding: 13px 20px;
 }
@@ -20737,7 +20737,7 @@ search-popdown details > summary:first-of-type {
   pointer-events: none;
 }
 .image-with-text__items--inline-left .image-with-text__content, .image-with-text__items--inline-right .image-with-text__content {
-  background: transparent;
+  background: #161616;
 }
 @media only screen and (max-width: 767px) {
   .image-with-text__content {
@@ -32472,4 +32472,14 @@ search-form mark {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+/* FAQ Page Specific Styles */
+.template-page-faq #SectionBannerImage--template--25608077967744__section_banner_image_Dzg4Ty .banner-image__inner {
+  height: 500px !important;
+}
+
+.template-page-faq #SectionBannerImage--template--25608077967744__section_banner_image_Dzg4Ty .banner-image__image img {
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
 }
