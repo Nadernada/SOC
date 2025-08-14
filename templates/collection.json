@@ -288,7 +288,7 @@
         "button_product_link": "{{ section.settings.collection.url }}",
         "button_product_color": "btn--secondary",
         "button_product_style": "btn--solid",
-        "button_product_size": "btn--small",
+        "button_product_size": "btn--large",
         "bg_color_secondary": false,
         "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
