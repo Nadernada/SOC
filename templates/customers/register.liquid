@@ -20,7 +20,9 @@
           <label for="CreatePassword" class="hidden-label">{{ 'customer.register.password' | t }}</label>
           <input type="password" name="customer[password]" id="CreatePassword" class="input--full{% if form.errors contains 'password' %} error{% endif %}" placeholder="{{ 'customer.register.password' | t }}" required>
           <button type="submit" class="btn btn--primary btn--solid">{{ 'customer.register.submit' | t }}</button>
-          <a class = "return light-gray" href="{{ shop.url }}">{{ 'customer.register.cancel' | t }}</a>
+          <div class="return light-gray">
+            <p><a href="{{ shop.url }}">{{ 'customer.register.cancel' | t }}</a></p>
+          </div>
         {% endform %}
       </div>
     </div>
