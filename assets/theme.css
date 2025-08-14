@@ -748,7 +748,7 @@ textarea,
 select {
   font-size: var(--FONT-SIZE-INPUT);
   border: var(--BORDER-WIDTH) solid var(--border);
-  background: var(--input-bg);
+  background: #191919;
   max-width: 100%;
   padding: 13px 20px;
 }

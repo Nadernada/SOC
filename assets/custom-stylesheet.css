@@ -378,6 +378,8 @@ html:not(:lang(ar)) .arabic-banner {
 
 .btn--primary {
   border: 2px transparent solid;
+  background : #ECC76F;
+
 }
 
 .btn--primary:hover {
