@@ -654,6 +654,11 @@ html:not(:lang(ar)) .arabic-banner {
 }
 
 /* Style for contact form submit button */
+.form__item--submit {
+  text-align: center;
+  width: 100%;
+}
+
 .form__item--submit .btn {
   background: #ECC76F !important;
   font-weight: 500;
@@ -663,15 +668,14 @@ html:not(:lang(ar)) .arabic-banner {
   letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
-  padding: 15px 20px;
+  padding: 15px 40px;
   border: none;
   border-radius: 0;
   transition: background-color 0.2s ease;
+  display: inline-block;
+  min-width: 200px;
 }
 
-.form__item--submit .btn:hover {
-  background: #e0b95a !important;
-}
 
 /* Style for contact form checkbox */
 .input--checkbox[type="checkbox"] {
