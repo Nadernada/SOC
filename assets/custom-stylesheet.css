@@ -708,6 +708,18 @@ html:not(:lang(ar)) .arabic-banner {
   transform: rotate(45deg);
 }
 
+/* Style for image with text button */
+.image-with-text__buttons .btn {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.02em; /* -2% letter spacing */
+  text-align: center;
+  color: #000000 !important;
+  font-family: inherit; /* This will use the default font, adjust if you have a specific 'Book' font */
+}
+
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
   gap: 8px !important;
