@@ -4572,6 +4572,7 @@ img[loading].is-loading {
 }
 
 .form-vertical-wrapper button {
+  border: 1px solid #03674D;
   width: 100%;
   font-weight: 600;     
   font-size: 16px;      
