@@ -720,15 +720,17 @@ html:not(:lang(ar)) .arabic-banner {
   font-family: inherit; /* This will use the default font, adjust if you have a specific 'Book' font */
 }
 
-/* Reduce banner image height */
+/* Fixed banner image height across all screens */
 .banner-image__inner {
-  min-height: 400px !important; /* Adjust this value as needed */
+  height: 50vh !important; /* 50% of viewport height */
+  min-height: 300px !important; /* Minimum height */
+  max-height: 600px !important; /* Maximum height */
 }
 
 .banner-image__image-container {
   position: relative;
   width: 100%;
-  height: 520px !important; /* Match the min-height */
+  height: 100% !important;
 }
 
 .banner-image__image-inner,
@@ -739,6 +741,7 @@ html:not(:lang(ar)) .arabic-banner {
   width: 100%;
   height: 100% !important;
   object-fit: cover;
+  object-position: center center;
 }
 
 /* Add gap between image and text in image-with-text section */
@@ -1640,14 +1643,4 @@ section {
 .footer-link:hover {
   text-decoration: underline;
   transform: scale(1.1);
-}
-
-/* Remove black shadow overlay from banner images */
-.banner-image .overlay {
-  background: none !important;
-}
-
-/* Remove black shadow overlay from all images */
-.overlay {
-  background: none !important;
 }
