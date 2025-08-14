@@ -4547,6 +4547,7 @@ img[loading].is-loading {
 }
 
 .form-vertical-wrapper p a {
+  font-weight: 600;
   display: inline-block;
   text-decoration: underline !important;
   text-underline-offset: 0.2em;
@@ -12753,6 +12754,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 }
 
 .account__subheading {
+  font-weight: 600;
   margin: 0 0 var(--gutter-mobile);
 }
 @media only screen and (min-width: 768px) {
