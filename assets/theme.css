@@ -748,7 +748,7 @@ textarea,
 select {
   font-size: var(--FONT-SIZE-INPUT);
   border: var(--BORDER-WIDTH) solid var(--border);
-  background: #191919;
+  background: ##161616;
   max-width: 100%;
   padding: 13px 20px;
 }
@@ -5768,6 +5768,7 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
   .body--rounded-corners .wrapper--full .image-with-text__items--overlay-left .image-with-text__content {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    background: #161616;
   }
   .body--rounded-corners .wrapper--full .image-with-text__items--overlay-left .image-with-text__image-bg,
   .body--rounded-corners .wrapper--full .image-with-text__items--overlay-right .image-with-text__content {
