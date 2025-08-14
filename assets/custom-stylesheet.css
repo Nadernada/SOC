@@ -653,6 +653,11 @@ html:not(:lang(ar)) .arabic-banner {
   order: 1;
 }
 
+/* Add gap between image and text in image-with-text section */
+.image-with-text__items {
+  gap: 3px !important;
+}
+
 .form__item input::placeholder,
 .form__item textarea::placeholder {
   color: #b4b4b4;
