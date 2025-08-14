@@ -654,6 +654,10 @@ html:not(:lang(ar)) .arabic-banner {
 }
 
 /* Style for contact form submit button */
+.form__item--submit {
+  text-align: left; /* Align button to the left */
+}
+
 .form__item--submit .btn {
   background: #ECC76F !important;
   font-weight: 500;
@@ -666,12 +670,10 @@ html:not(:lang(ar)) .arabic-banner {
   border: none;
   border-radius: 0;
   transition: background-color 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
   min-width: 200px;
   text-align: center;
+  display: inline-block; /* Changed from flex */
+  margin: 0; /* Remove auto margin */
 }
 
 
