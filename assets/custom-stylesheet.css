@@ -710,7 +710,7 @@ html:not(:lang(ar)) .arabic-banner {
 
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
-  gap: 3px !important;
+  gap: 8px !important;
   flex-wrap: nowrap !important;
 }
 
