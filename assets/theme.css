@@ -4548,7 +4548,6 @@ img[loading].is-loading {
 
 .form-vertical-wrapper p a {
   position: relative;
-  display: inline-block;
   text-decoration: none !important;
 }
 .form-vertical-wrapper p a:before, .form-vertical-wrapper p a:after {
