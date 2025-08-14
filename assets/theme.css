@@ -5768,7 +5768,6 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
   .body--rounded-corners .wrapper--full .image-with-text__items--overlay-left .image-with-text__content {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background: #161616;
   }
   .body--rounded-corners .wrapper--full .image-with-text__items--overlay-left .image-with-text__image-bg,
   .body--rounded-corners .wrapper--full .image-with-text__items--overlay-right .image-with-text__content {
@@ -20727,7 +20726,7 @@ search-popdown details > summary:first-of-type {
   pointer-events: none;
 }
 .image-with-text__items--inline-left .image-with-text__content, .image-with-text__items--inline-right .image-with-text__content {
-  background: transparent;
+  background: #161616;
 }
 @media only screen and (max-width: 767px) {
   .image-with-text__content {
