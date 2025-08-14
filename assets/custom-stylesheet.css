@@ -653,6 +653,27 @@ html:not(:lang(ar)) .arabic-banner {
   order: 1;
 }
 
+/* Style for contact form submit button */
+.form__item--submit .btn {
+  background: #ECC76F !important;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 0;
+  transition: background-color 0.2s ease;
+}
+
+.form__item--submit .btn:hover {
+  background: #e0b95a !important;
+}
+
 /* Style for contact form checkbox */
 .input--checkbox[type="checkbox"] {
   width: 28px;
@@ -689,7 +710,7 @@ html:not(:lang(ar)) .arabic-banner {
 
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
-  gap: 8px !important;
+  gap: 3px !important;
   flex-wrap: nowrap !important;
 }
 
@@ -697,7 +718,7 @@ html:not(:lang(ar)) .arabic-banner {
 .image-with-text__image,
 .image-with-text__content {
   flex: 1 0 auto !important;
-  max-width: calc(50% - 4px) !important; /* Adjusted for 8px gap (half on each side) */
+  max-width: calc(50% - 1.5px) !important;
 }
 
 .form__item input::placeholder,
