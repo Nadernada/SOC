@@ -720,6 +720,27 @@ html:not(:lang(ar)) .arabic-banner {
   font-family: inherit; /* This will use the default font, adjust if you have a specific 'Book' font */
 }
 
+/* Reduce banner image height */
+.banner-image__inner {
+  min-height: 400px !important; /* Adjust this value as needed */
+}
+
+.banner-image__image-container {
+  position: relative;
+  width: 100%;
+  height: 400px !important; /* Match the min-height */
+}
+
+.banner-image__image-inner,
+.banner-image__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
   gap: 8px !important;
