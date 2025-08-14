@@ -32462,3 +32462,13 @@ search-form mark {
   align-items: center;
   justify-content: center;
 }
+/* FAQ Page Specific Styles */
+.template-page-faq #SectionBannerImage--template--25608077967744__section_banner_image_Dzg4Ty .banner-image__inner {
+  height: 500px !important;
+}
+
+.template-page-faq #SectionBannerImage--template--25608077967744__section_banner_image_Dzg4Ty .banner-image__image img {
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+}
