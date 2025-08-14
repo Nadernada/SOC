@@ -655,7 +655,7 @@ html:not(:lang(ar)) .arabic-banner {
 
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
-  gap: 3px !important;
+  gap: 8px !important;
   flex-wrap: nowrap !important;
 }
 
@@ -663,7 +663,7 @@ html:not(:lang(ar)) .arabic-banner {
 .image-with-text__image,
 .image-with-text__content {
   flex: 1 0 auto !important;
-  max-width: calc(50% - 1.5px) !important;
+  max-width: calc(50% - 4px) !important; /* Adjusted for 8px gap (half on each side) */
 }
 
 .form__item input::placeholder,
