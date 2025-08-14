@@ -4547,27 +4547,15 @@ img[loading].is-loading {
 }
 
 .form-vertical-wrapper p a {
-  position: relative;
-  text-decoration: none !important;
+  display: inline-block;
+  text-decoration: underline !important;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-thickness 0.2s ease;
 }
-.form-vertical-wrapper p a:before, .form-vertical-wrapper p a:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.1rem;
-  width: 100%;
-  height: var(--BORDER-WIDTH);
-  display: block;
-  background: var(--btn-text, var(--text));
-  transition: none;
-  pointer-events: none;
-}
-.form-vertical-wrapper p a:before {
-  transform: scaleX(0);
-  transform-origin: left;
-}
-.form-vertical-wrapper p a:after {
-  transform-origin: right;
+
+.form-vertical-wrapper p a:hover {
+  text-decoration-thickness: 2px;
 }
 .no-touch .form-vertical-wrapper p a:hover {
   background: transparent;
