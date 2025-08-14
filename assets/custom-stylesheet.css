@@ -656,6 +656,14 @@ html:not(:lang(ar)) .arabic-banner {
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
   gap: 3px !important;
+  flex-wrap: nowrap !important;
+}
+
+/* Ensure flex items maintain their width */
+.image-with-text__image,
+.image-with-text__content {
+  flex: 1 0 auto !important;
+  max-width: calc(50% - 1.5px) !important;
 }
 
 .form__item input::placeholder,
