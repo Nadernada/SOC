@@ -1391,8 +1391,8 @@ section {
 
   .banner-image__text-wrapper--wide {
     width: 60%;
-    max-width: 900px;
-    margin-right: 5%;
+    max-width: 900%;
+    margin-right: 50px;
   }
 
   .banner-image__text-wrapper::before {
