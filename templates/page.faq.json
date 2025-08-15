@@ -25,7 +25,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>FAQs</p>",
-            "size": 180,
+            "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -57,7 +57,7 @@
         "increase_border_radius": true,
         "text_width": "wide",
         "text_position": "right",
-        "text_alignment": "text-right",
+        "text_alignment": "text-center",
         "text_color": "text-light"
       }
     },
