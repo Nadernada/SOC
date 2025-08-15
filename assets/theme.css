@@ -20736,7 +20736,7 @@ search-popdown details > summary:first-of-type {
   overflow-wrap: break-word;
   pointer-events: none;
 }
-.image-with-text__items--inline-left .image-with-text__content, .image-with-text__items--inline-right .image-with-text__content {
+.image-with-text__content-with-background {
   background: #161616;
 }
 @media only screen and (max-width: 767px) {

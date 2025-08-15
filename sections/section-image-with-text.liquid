@@ -30,6 +30,7 @@
   assign animation_anchor = selector_id
   assign animations_enabled = settings.animations_enabled
   assign animation_delay = 150
+  assign with_background = section.settings.with_background
 
   assign hover_scale = ''
   assign entire_section_link = false
@@ -490,7 +491,7 @@
         </div>
 
         {%- unless content == blank -%}
-          <div class="image-with-text__content {{ text_alignment_class }}"
+          <div class="image-with-text__content {{ text_alignment_class }} {% if with_background %}image-with-text__content-with-background{% endif %}"
             {% if animations_enabled %}
               data-aos="fade-up"
               data-aos-anchor="{{ animation_anchor }}"
@@ -552,6 +553,12 @@
           { "value": "left", "label": "Left" },
           { "value": "right", "label": "Right" }
         ]
+      },
+      {
+        "type": "checkbox",
+        "id": "with-background",
+        "label": "With background",
+        "default": false
       },
       {
         "type": "select",
