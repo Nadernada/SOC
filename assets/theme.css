@@ -14828,8 +14828,8 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   width: 100%;
   height: 7px;
   border-radius: 6px;
-  background-color: var(--text-alpha-10);
-  color: #ECC76F;
+  background-color:#ECC76F;
+  color: var(--PRIMARY-BUTTONS-COLOR-BG);
 }
 
 .cart__message__progress:nth-child(2) {
