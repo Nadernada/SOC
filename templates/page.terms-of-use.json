@@ -139,7 +139,7 @@
         "subheading_tfFteX": {
           "type": "subheading",
           "settings": {
-            "text": "<p>6. PRIVACY & SECURITY</p>",
+            "text": "<p>7. CHANGES TO THESE TERMS</p>",
             "size": 150,
             "margin_bottom": 16
           }
@@ -147,7 +147,67 @@
         "text_rffXyy": {
           "type": "text",
           "settings": {
-            "text": "<p>How we collect and process your personal data and safeguard your privacy is governed by our Privacy Policy (Link) and which forms part of these Terms. We also have a Cookie Policy that governs use of cookies and other tracking technologies which may be used on our Site.</p>",
+            "text": "<p>We are may amend these Terms at any time, for example, where we add new services or features or where there is a change in applicable law. All such changes will take effect once these Terms have been updated and you will be assumed to have accepted any such changes if you continue to use the Site after the latest update.</p>",
+            "size": 100
+          }
+        },
+        "subheading_VCFTkA": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>8. PURCHASE OF PRODUCTS OR SERVICES</p>",
+            "size": 150,
+            "margin_bottom": 16
+          }
+        },
+        "text_6yxjxN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you elect to purchase any products or services which we offer to you through this Site (or any affiliated website) this may be subject to new and/or additional terms and conditions which will be notified to you at the time.</p>",
+            "size": 100
+          }
+        },
+        "subheading_nNCLpm": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>9. INVAILIDITY & WAIVER</p>",
+            "size": 150,
+            "margin_bottom": 16
+          }
+        },
+        "text_4wQnM3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If any of these Terms is found by a court or a regulator to be invalid or unenforceable the other provisions shall continue to apply to the maximum extent legally permitted. No waiver of any of these Terms shall be effective unless made in writing by us and a waiver (or non-enforcement) shall not be construed as a waiver of any subsequent breach.</p>",
+            "size": 100
+          }
+        },
+        "subheading_K8dVbr": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>10. GOVERNING LAW</p>",
+            "size": 150,
+            "margin_bottom": 16
+          }
+        },
+        "text_MzqRLX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the event of any dispute between you and us concerning these Terms, the laws of Switzerland will apply. If you wish to take court proceedings against us, you should do so within Switzerland, except to the extent that applicable law in your country of residence requires mandatory application of another law and/or jurisdiction and/or language and such requirement cannot lawfully be excluded under these Terms in which case such law and/or jurisdiction and/or language shall apply, as far as legally required.</p>",
+            "size": 100
+          }
+        },
+        "subheading_UtHn9N": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>11. CONTACT</p>",
+            "size": 150,
+            "margin_bottom": 16
+          }
+        },
+        "text_kb3tRt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have any questions or complaints regarding the Site or these Terms, you can contact us by emailing inquiries@supercarownerscircle.com.</p>",
             "size": 100
           }
         }
@@ -169,13 +229,21 @@
         "subheading_ahdMiV",
         "text_pYGcYL",
         "subheading_tfFteX",
-        "text_rffXyy"
+        "text_rffXyy",
+        "subheading_VCFTkA",
+        "text_6yxjxN",
+        "subheading_nNCLpm",
+        "text_4wQnM3",
+        "subheading_K8dVbr",
+        "text_MzqRLX",
+        "subheading_UtHn9N",
+        "text_kb3tRt"
       ],
       "name": "Text",
       "settings": {
-        "text_position": "center",
+        "text_position": "left",
         "bg_color_secondary": false,
-        "text_color": "text-dark",
+        "text_color": "text-light",
         "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
