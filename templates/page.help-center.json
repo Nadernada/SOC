@@ -240,13 +240,13 @@
         "columns": 2,
         "icons_width": 20,
         "show_vertical_borders": true,
-        "show_horizontal_borders": true,
+        "show_horizontal_borders": false,
         "heading_size": 80,
         "text_size": 90,
         "bg_color": "",
         "text_color": "#333",
         "box_color": "",
-        "color_border": "#333",
+        "color_border": "#191919",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -255,7 +255,7 @@
         "layout_mobile": "grid",
         "width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     }
   },
