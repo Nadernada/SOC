@@ -1,3 +1,19 @@
+/* Enable/disable the legend inline style by uncommenting the following block */
+/*
+.custom-legend-inline {
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+}
+
+.custom-legend-inline .radio__legend {
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  width: auto !important;
+}
+*/
+
 html:lang(ar) .banner-image__text-wrapper {
   direction: rtl !important;
 }
