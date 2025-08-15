@@ -1644,3 +1644,27 @@ section {
   text-decoration: underline;
   transform: scale(1.1);
 }
+
+/* Remove black shadow/gradient overlay from all images */
+.image-with-text__image::after,
+.banner-image__image::after,
+.product-single__media::after,
+.product-grid-item__image::after {
+  content: none !important;
+}
+
+/* Remove any overlay backgrounds */
+.overlay,
+.image-overlay,
+.product__media-overlay,
+.grid-product__image-overlay {
+  background: none !important;
+}
+
+/* Remove box shadow from images */
+img,
+.image,
+.image__img {
+  box-shadow: none !important;
+}
+
