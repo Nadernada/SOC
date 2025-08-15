@@ -133,7 +133,7 @@
     data-slider-mobile
   {% endif %}
 >
-  <div class="mosaic__wrapper {{ section_width }}{% if section_width != 'wrapper--full' %} wrapper--no-full{% endif %}">
+  <div class="mosaic__wrapper wrapper--full">
     {%- if block_count > 0 -%}
       <div class="mosaic__grid{% if mobile_slider %} carousel--mobile{% else %} grid--mobile{% endif %}" data-grid>
         {%- for block in section.blocks -%}
