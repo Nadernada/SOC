@@ -57,7 +57,7 @@
         "increase_border_radius": true,
         "text_width": "wide",
         "text_position": "right",
-        "text_alignment": "text-center",
+        "text_alignment": "text-right",
         "text_color": "text-light"
       }
     },

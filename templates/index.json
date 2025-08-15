@@ -506,16 +506,16 @@
         "show_images": false,
         "show_borders": true,
         "equalize_height": true,
-        "desktop_aspect_ratio": 0.8,
+        "desktop_aspect_ratio": 1,
         "mobile_aspect_ratio": 0.8,
-        "heading_size": 180,
+        "heading_size": 130,
         "text_size": 90,
         "bg_color_secondary": false,
         "color_borders": "#ffffff",
-        "layout_mobile": "carousel",
-        "width": "wrapper",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "layout_mobile": "stacked",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
