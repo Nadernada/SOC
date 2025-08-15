@@ -102,6 +102,7 @@
     "show_rounded_corners": true,
     "show_text_shadow": true,
     "mobile_menu_behaviour": "link",
+    "enable_carousel_transform": false,
     "animations_enabled": false,
     "product_badges_size": 150,
     "sale_bg_color": "#ecc76f",
