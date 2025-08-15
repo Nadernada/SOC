@@ -310,6 +310,7 @@
         "image": "shopify://shop_images/IMG_4886.jpg",
         "image_height": "three-fifty-height",
         "overlay_opacity": 10,
+        "show_bottom_shadow": true,
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
