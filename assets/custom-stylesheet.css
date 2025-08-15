@@ -1390,8 +1390,7 @@ section {
   }
 
   .banner-image__text-wrapper--wide {
-    width: 50%;
-    margin-right: 50px;
+    width: 100%;
   }
 
   .banner-image__text-wrapper::before {
@@ -1653,7 +1652,9 @@ section {
 /* Dark background for banner text wrapper */
 .banner-image__text-wrapper--dark-bg {
   background-color: #161616;
-  padding: 20px;
+  padding: 40px;
+  width: 50%;
+  margin-right: 50px;
   display: inline-block;
   border-radius: 4px;
 }
