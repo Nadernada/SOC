@@ -1,5 +1,4 @@
-/* Enable/disable the legend inline style by uncommenting the following block */
-/*
+/* Legend and radio buttons in the same row */
 .custom-legend-inline {
   display: flex !important;
   align-items: center !important;
@@ -12,7 +11,6 @@
   float: none !important;
   width: auto !important;
 }
-*/
 
 html:lang(ar) .banner-image__text-wrapper {
   direction: rtl !important;
