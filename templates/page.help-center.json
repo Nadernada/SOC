@@ -21,72 +21,162 @@
     "section_banner_image_paFqe7": {
       "type": "section-banner-image",
       "blocks": {
-        "subheading_q7aj6F": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Welcome to</p>",
-            "size": 100
-          }
-        },
         "heading_JztwcD": {
           "type": "heading",
           "settings": {
-            "text": "<p>Palo Alto</p>",
-            "size": 180,
+            "text": "<p>Help Center</p>",
+            "size": 145,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_LBUE6E": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>In this section you can quickly answer any questions you may have. Consult the answers to the FAQ of our users and obtain useful information about our Store.</p>",
             "size": 100
-          }
-        },
-        "button_MdNbgA": {
-          "type": "button",
-          "settings": {
-            "stacked_button": false,
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
           }
         }
       },
       "block_order": [
-        "subheading_q7aj6F",
         "heading_JztwcD",
-        "text_LBUE6E",
-        "button_MdNbgA"
+        "text_LBUE6E"
       ],
       "name": "Banner image",
       "settings": {
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/image_4_2dacc80a-a4ce-4025-8dcb-08d5da085fc3.png",
         "overlay_opacity": 10,
         "transition": "zoom-out",
         "enable_zoom_animation": true,
         "enable_card_scrolling": false,
         "increase_border_radius": true,
         "text_width": "normal",
-        "text_position": "left",
-        "text_alignment": "text-left",
+        "text_position": "right",
+        "text_alignment": "text-right",
         "text_color": "text-light"
+      }
+    },
+    "section_grid_XJVYXi": {
+      "type": "section-grid",
+      "blocks": {
+        "text_pmcbzL": {
+          "type": "text",
+          "settings": {
+            "width": "33.33",
+            "text_position": "center",
+            "subheading": "",
+            "title": "Shipping and Delivery",
+            "text": "Do you offer international shipping?What are the shipping costs?",
+            "button_1_text": "View All Questions",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light",
+            "bg_color": "#161616"
+          }
+        },
+        "text_kYkQLA": {
+          "type": "text",
+          "settings": {
+            "width": "33.33",
+            "text_position": "center",
+            "subheading": "",
+            "title": "Ordering and Payment",
+            "text": "What payment methods are accepted?Can I modify or cancel my order after placing it?",
+            "button_1_text": "View All Questions",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light",
+            "bg_color": "#161616"
+          }
+        },
+        "text_tjrkxN": {
+          "type": "text",
+          "settings": {
+            "width": "33.33",
+            "text_position": "center",
+            "subheading": "",
+            "title": "Products and Availability",
+            "text": "Are all products authentic?What types of products do you offer?",
+            "button_1_text": "View All Questions",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light",
+            "bg_color": "#161616"
+          }
+        },
+        "text_xMbt8P": {
+          "type": "text",
+          "settings": {
+            "width": "33.33",
+            "text_position": "center",
+            "subheading": "",
+            "title": "Returns and Exchanges",
+            "text": "Add more info or delete this text",
+            "button_1_text": "View All Questions",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light",
+            "bg_color": "#161616"
+          }
+        },
+        "text_4W4ycH": {
+          "type": "text",
+          "settings": {
+            "width": "33.33",
+            "text_position": "center",
+            "subheading": "",
+            "title": "Text",
+            "text": "Add more info or delete this text",
+            "button_1_text": "View All Questions",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-light",
+            "bg_color": "#161616"
+          }
+        }
+      },
+      "block_order": [
+        "text_pmcbzL",
+        "text_kYkQLA",
+        "text_tjrkxN",
+        "text_xMbt8P",
+        "text_4W4ycH"
+      ],
+      "name": "Grid",
+      "settings": {
+        "desktop_height": "three-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--secondary",
+        "button_2_style": "btn--outline",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "1",
+        "overlay_text": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
     "main",
-    "section_banner_image_paFqe7"
+    "section_banner_image_paFqe7",
+    "section_grid_XJVYXi"
   ]
 }

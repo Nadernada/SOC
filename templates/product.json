@@ -363,7 +363,7 @@
         "button_color": "btn--black",
         "button_style": "btn--solid",
         "button_size": "btn--small",
-        "layout_mobile": "grid",
+        "layout_mobile": "stacked",
         "width": "wrapper",
         "padding_top": 30,
         "padding_bottom": 30
