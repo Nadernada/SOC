@@ -207,12 +207,63 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_icons_row_JKxWJx": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_bhAKbR": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "Contact telephone number",
+            "text": "<p>Monday to Friday from 09:00 - 18:00 h</p>"
+          }
+        },
+        "text_GTw9VK": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "Send us an email",
+            "text": "<p>Write to us at contact@socstore.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_bhAKbR",
+        "text_GTw9VK"
+      ],
+      "name": "Icons row",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 2,
+        "icons_width": 20,
+        "show_vertical_borders": true,
+        "show_horizontal_borders": true,
+        "heading_size": 80,
+        "text_size": 90,
+        "bg_color": "",
+        "text_color": "#333",
+        "box_color": "",
+        "color_border": "#333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
     "section_banner_image_paFqe7",
     "section_grid_XJVYXi",
-    "section_text_WnqxAB"
+    "section_text_WnqxAB",
+    "section_icons_row_JKxWJx"
   ]
 }
