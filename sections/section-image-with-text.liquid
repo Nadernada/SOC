@@ -491,7 +491,7 @@
         </div>
 
         {%- unless content == blank -%}
-          <div class="image-with-text__content {{ text_alignment_class }} {% if with_background %}image-with-text__content-with-background{% endif %}"
+          <div class="image-with-text__content {{ text_alignment_class }} {% if with_background == true %}image-with-text__content-with-background{% endif %}"
             {% if animations_enabled %}
               data-aos="fade-up"
               data-aos-anchor="{{ animation_anchor }}"
