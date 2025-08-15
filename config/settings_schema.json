@@ -1301,6 +1301,22 @@
     ]
   },
   {
+    "name": "Carousel Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Carousel Behavior"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_carousel_transform",
+        "label": "Enable Carousel Transform",
+        "default": true,
+        "info": "When enabled, carousels will use transform for smooth sliding"
+      }
+    ]
+  },
+  {
     "name": "Animation",
     "settings": [
       {

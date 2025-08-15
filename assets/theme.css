@@ -14829,7 +14829,7 @@ body:has(.card-scrolling-effect):has([data-header-sticky]) .main-content > .shop
   height: 7px;
   border-radius: 6px;
   background-color: var(--text-alpha-10);
-  color: var(--PRIMARY-BUTTONS-COLOR-BG);
+  color: #ECC76F;
 }
 
 .cart__message__progress:nth-child(2) {

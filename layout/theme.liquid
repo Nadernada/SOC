@@ -261,6 +261,7 @@
   template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
   {% if customer %} customer-logged-in{% endif %}
   {% if settings.show_rounded_corners %} body--rounded-corners{% endif %}
+  {% if settings.enable_carousel_transform %} enable-carousel-transform{% endif %}
   {% if settings.animations_enabled %} aos-initialized{% endif %}
   {% if settings.color_body_bg == '#000000' or settings.color_body_bg == '#000' %} palette--dark{% endif %}
   {% if settings.color_body_bg == '#ffffff' or settings.color_body_bg == '#fff' %} palette--light{% endif %}

@@ -744,6 +744,17 @@ html:not(:lang(ar)) .arabic-banner {
   object-position: center center;
 }
 
+/* Carousel Transform Setting */
+.flickity-slider {
+  transition: transform 0.3s ease-out;
+}
+
+/* Disable transform when setting is off */
+body:not(.enable-carousel-transform) .flickity-slider {
+  transform: none !important;
+  transition: none !important;
+}
+
 /* Add gap between image and text in image-with-text section */
 .image-with-text__items {
   gap: 8px !important;
