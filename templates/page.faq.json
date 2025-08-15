@@ -27,8 +27,8 @@
             "text": "<p>FAQs</p>",
             "size": 180,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_yfDXNz": {
@@ -45,8 +45,9 @@
       ],
       "name": "Banner image",
       "settings": {
+        "enable_dark_background": true,
         "height": "three-quarters-height",
-        "enable_mobile_height": false,
+        "enable_mobile_height": true,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/f0e05eccffe1697421e2dfdaaaca2e0ffdd8f8ca.png",
         "overlay_opacity": 10,
