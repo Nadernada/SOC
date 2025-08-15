@@ -172,11 +172,47 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_text_WnqxAB": {
+      "type": "section-text",
+      "blocks": {
+        "heading_QWEwyT": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Can't find what you're looking for?</p>",
+            "size": 115,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_Gz7fGa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Contact us here or call us on +00 999 88 77 66 and we will help <br/>you solve your doubts.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_QWEwyT",
+        "text_Gz7fGa"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
     "section_banner_image_paFqe7",
-    "section_grid_XJVYXi"
+    "section_grid_XJVYXi",
+    "section_text_WnqxAB"
   ]
 }
