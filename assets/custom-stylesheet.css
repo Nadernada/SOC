@@ -1657,7 +1657,7 @@ section {
   max-width: 600px;
   margin: 0 auto;
   display: block;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 /* Tablet styles */
