@@ -1652,17 +1652,45 @@ section {
 /* Dark background for banner text wrapper */
 .banner-image__text-wrapper--dark-bg {
   background-color: #161616;
-  padding: 40px;
-  width: 40%;
-  margin-right: 50px;
-  display: inline-block;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
   border-radius: 4px;
 }
 
-/* Adjust padding for different screen sizes */
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+  .banner-image__text-wrapper--dark-bg {
+    width: 60%;
+    margin: 0 50px 0 0;
+    padding: 40px;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+  .banner-image__text-wrapper--dark-bg {
+    width: 50%;
+    max-width: 700px;
+  }
+}
+
+/* Large desktop styles */
+@media screen and (min-width: 1440px) {
+  .banner-image__text-wrapper--dark-bg {
+    width: 40%;
+    max-width: 800px;
+  }
+}
+
+/* Mobile styles */
 @media screen and (max-width: 767px) {
   .banner-image__text-wrapper--dark-bg {
-    padding: 15px;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
