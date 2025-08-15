@@ -17,8 +17,8 @@
           "settings": {
             "width": "100",
             "image": "shopify://shop_images/image_3.png",
-            "overlay_opacity": 0,
-            "text_position": "top-left",
+            "overlay_opacity": 35,
+            "text_position": "left",
             "subheading": "",
             "title": "Shop the Supercar Lifestyle",
             "text": "",
@@ -62,7 +62,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>Luxury. Performance. Legacy.</p>",
-            "size": 150,
+            "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -88,7 +88,7 @@
         "collection_FrFxWg": {
           "type": "collection",
           "settings": {
-            "title": "Sale",
+            "title": "Trending Now",
             "tab_collection": "frontpage",
             "number_of_products": 6,
             "show_image": true,
@@ -128,8 +128,8 @@
       ],
       "name": "Tab collections",
       "settings": {
-        "columns_mobile": "2",
-        "image_aspect_ratio": 1.3,
+        "columns_mobile": "1",
+        "image_aspect_ratio": 1.2,
         "text_alignment": "text-left",
         "title": "",
         "text": "",
@@ -203,7 +203,7 @@
         "color": "#ffffff",
         "border_color": "#000000",
         "padding_top": 30,
-        "padding_bottom": 30
+        "padding_bottom": 20
       }
     },
     "section_split_images_68fg69": {
@@ -233,12 +233,12 @@
         "heading_highlight_type": "italics",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
-        "heading_size": 140,
+        "heading_size": 100,
         "text": "From premium gear to unique memorabilia, find everything you need to express your love for performance and luxury, on and off the road.",
         "button_1_text": "SIGN UP",
         "button_1_link": "",
         "button_1_color": "btn--secondary",
-        "button_1_style": "btn--solid-border",
+        "button_1_style": "btn--solid",
         "button_1_size": "btn--small",
         "button_2_text": "",
         "button_2_link": "",
@@ -263,15 +263,15 @@
           "settings": {
             "product": "soc-cap",
             "position_x": 50,
-            "position_y": 50
+            "position_y": 10
           }
         },
         "section-look-0-block-1": {
           "type": "product",
           "settings": {
             "product": "soc-travel-bag",
-            "position_x": 39,
-            "position_y": 63
+            "position_x": 17,
+            "position_y": 52
           }
         }
       },
@@ -284,8 +284,8 @@
         "image": "shopify://shop_images/20191009_032913100_iOS_4.jpg",
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1.1,
-        "title": "",
-        "text": "<h1>Unleash Your </h1><h1>Inner Driver</h1>",
+        "title": "Unleash Your Inner Driver",
+        "text": "",
         "text_alignment": "text-left",
         "show_hotspots": true,
         "content_color": "text-light",
@@ -302,8 +302,8 @@
         "heading_ABffjB": {
           "type": "heading",
           "settings": {
-            "text": "<p>\"A place where high-profile collectors come together with their special cars </p><p>to celebrate a shared passion.\" </p>",
-            "size": 160,
+            "text": "<p>\"A place where high-profile collectors <br/>come together with their special cars <br/>to celebrate a shared passion.\" </p>",
+            "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -349,7 +349,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "description": "<p>Explore a curated collection celebrating the spirit of speed, precision, and automotive excellence. Designed for true supercar enthusiasts.</p>",
-        "heading_size": 120,
+        "heading_size": 100,
         "button_text": "",
         "button_link": "",
         "button_color": "btn--white",
@@ -359,10 +359,10 @@
         "video_link": "",
         "bg_color_secondary": false,
         "gradient": "",
-        "animation": "horizontal",
+        "animation": "diagonal",
         "animation_intensity": 50,
         "width": "wrapper--full-padded",
-        "padding_top": 10,
+        "padding_top": 72,
         "padding_bottom": 100
       }
     },
@@ -400,26 +400,26 @@
       ],
       "name": "Featured collection",
       "settings": {
-        "collection": "",
+        "collection": "frontpage",
         "products_layout": "carousel",
         "number_of_products": 8,
-        "products_per_row_on_desktop": 4,
+        "products_per_row_on_desktop": 3,
         "columns_mobile": "2",
         "text_alignment": "text-left",
-        "title": "<p>Best Sellers</p>",
+        "title": "<p>TRENDING NOW</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
-        "heading_size": 185,
+        "heading_size": 100,
         "text": "",
         "text_size": 100,
-        "button_text": "Shop Now",
-        "button_color": "btn--black",
+        "button_text": "",
+        "button_color": "btn--secondary",
         "button_style": "btn--text",
         "button_size": "btn--large",
-        "button_product_text": "",
-        "button_product_link": "",
-        "button_product_color": "btn--black",
+        "button_product_text": "Shop now",
+        "button_product_link": "{{ section.settings.collection.url }}",
+        "button_product_color": "btn--secondary",
         "button_product_style": "btn--solid",
         "button_product_size": "btn--small",
         "bg_color_secondary": false,
@@ -509,8 +509,8 @@
         "equalize_height": true,
         "desktop_aspect_ratio": 1,
         "mobile_aspect_ratio": 0.8,
-        "heading_size": 130,
-        "text_size": 90,
+        "heading_size": 100,
+        "text_size": 80,
         "bg_color_secondary": false,
         "color_borders": "#ffffff",
         "layout_mobile": "stacked",

@@ -80,9 +80,9 @@
       ],
       "settings": {
         "sticky_header": false,
-        "header_border": true,
-        "link_hover_effect": "dot",
-        "logo_not_home": "shopify://shop_images/ms-icon-310x310.png",
+        "header_border": false,
+        "link_hover_effect": "line",
+        "logo_not_home": "shopify://shop_images/GOLD.png",
         "logo_max_width": 50,
         "main-menu": "dev-menu",
         "main_menu_secondary": "",

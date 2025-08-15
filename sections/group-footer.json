@@ -20,9 +20,9 @@
             "alignment": "text-left",
             "image": "shopify://shop_images/ms-icon-310x310.png",
             "logo_width": 70,
-            "show_shop_name": true,
+            "show_shop_name": false,
             "text": "",
-            "column_width": "25"
+            "column_width": "20"
           }
         },
         "footer-block-0": {
@@ -35,56 +35,44 @@
             "column_width": "20"
           }
         },
-        "blog_JckLwe": {
-          "type": "blog",
-          "settings": {
-            "alignment": "text-left",
-            "title": "Supercar Owners Circle Store",
-            "blog": "",
-            "layout": "articles",
-            "column_width": "25"
-          }
-        },
         "footer-block-1": {
           "type": "link",
           "settings": {
             "alignment": "text-left",
-            "menu": "footer",
-            "title": "Helpful Links",
-            "column_width": "20"
+            "menu": "dev-menu",
+            "title": "Supercar Owners Circle Store",
+            "column_width": "33.33"
           }
         },
-        "footer-block-2": {
-          "type": "text",
+        "link_BPR88m": {
+          "type": "link",
           "settings": {
             "alignment": "text-left",
-            "title": "Our Mission",
-            "footer_text": "<p>Leave your customers with a final message about your brand in this rich text block.</p>",
-            "column_width": "30"
+            "menu": "dev-menu",
+            "title": "duPont REDISTRY Group",
+            "column_width": "20"
           }
         },
         "footer-block-3": {
           "type": "newsletter",
-          "disabled": true,
           "settings": {
             "alignment": "text-left",
-            "title": "Newsletter",
+            "title": "Subscribe",
             "uppercase_heading": false,
             "heading_size": 100,
-            "text": "<p>Stay up to date with the new collections, products and exclusive offers.</p>",
-            "button_text": "",
-            "button_color": "btn--white",
+            "text": "<p>Be the first to know about new products!</p>",
+            "button_text": "Sign Up",
+            "button_color": "btn--secondary",
             "button_style": "btn--solid",
-            "column_width": "30"
+            "column_width": "25"
           }
         }
       },
       "block_order": [
         "logo_GVYc9r",
         "footer-block-0",
-        "blog_JckLwe",
         "footer-block-1",
-        "footer-block-2",
+        "link_BPR88m",
         "footer-block-3"
       ],
       "settings": {
