@@ -23,7 +23,7 @@
 {%- endstyle -%}
 
 <section
-  class="section-padding newsletter-section{% if image %} {{ section.settings.image_height }}{% endif %} {{ section.settings.text_color }}"
+  class="section-padding newsletter-section{% if image %} {{ section.settings.image_height }}{% endif %} {{ section.settings.text_color }}{% if section.settings.show_bottom_shadow %} newsletter-section--with-shadow{% endif %}"
   id="Newsletter--{{ unique }}"
   data-section-id="{{ unique }}"
   data-section-type="newsletter">
@@ -213,6 +213,17 @@
         "step": 5,
         "unit": "%",
         "default": 10
+      },
+      {
+        "type": "header",
+        "content": "Effects"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_bottom_shadow",
+        "label": "Show bottom shadow",
+        "default": false,
+        "info": "Adds a subtle shadow at the bottom of the section"
       },
       {
         "type": "header",

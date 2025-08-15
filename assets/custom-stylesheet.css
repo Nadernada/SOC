@@ -1649,6 +1649,37 @@ section {
   transform: scale(1.1);
 }
 
+/* Newsletter Section Shadow Effect */
+.newsletter-section--with-shadow {
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter-section--with-shadow::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0.3) 0%, 
+    rgba(0, 0, 0, 0.15) 30%, 
+    rgba(0, 0, 0, 0) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Adjust shadow for sections with background image */
+.newsletter-section--with-shadow .overlay {
+  z-index: 1;
+}
+
+.newsletter-section--with-shadow .newsletter-section__content__wrapper {
+  position: relative;
+  z-index: 2;
+}
+
 /* Dark background for banner text wrapper */
 .banner-image__text-wrapper--dark-bg {
   background-color: #161616;
