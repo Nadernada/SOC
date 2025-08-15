@@ -720,6 +720,14 @@ html:not(:lang(ar)) .arabic-banner {
   font-family: inherit; /* This will use the default font, adjust if you have a specific 'Book' font */
 }
 
+/* Banner video button wrapper */
+.banner-image__button-video {
+  background: #161616 !important;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
 /* Fixed banner image height across all screens */
 .banner-image__inner {
   height: 50vh !important; /* 50% of viewport height */
