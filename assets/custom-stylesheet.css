@@ -1663,9 +1663,9 @@ section {
   right: 0;
   height: 80%;
   background: linear-gradient(to top, 
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.9) 50%,
-    rgba(0, 0, 0, 0.7) 60%,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 0.9) 40%,
+    rgba(0, 0, 0, 0.7) 70%,
     transparent 100%);
   pointer-events: none;
   z-index: 1;
