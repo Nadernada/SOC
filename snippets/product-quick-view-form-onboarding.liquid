@@ -167,8 +167,8 @@
                 {%- assign animation_delay = animation_delay | plus: 150 -%}
               {% endif %}>
               {%- if enable_variant_boxes or color_swatches_type != 'disabled' -%}
-                <fieldset class="radio__fieldset radio__fieldset--{{ settings.color_swatches_product_style }}" style="display: flex; align-items: center; gap: 15px;">
-                  <legend class="radio__legend" style="margin: 0; padding: 0;">
+                <fieldset class="radio__fieldset radio__fieldset--{{ settings.color_swatches_product_style }} custom-legend-inline">
+                  <legend class="radio__legend">
                     <span class="radio__legend__label label-typography">{{- 'homepage.onboarding.color' | t -}}</span>
                   </legend>
 
