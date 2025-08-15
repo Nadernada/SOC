@@ -45,6 +45,7 @@
       ],
       "name": "Banner image",
       "settings": {
+        "enable_dark_background": true,
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
@@ -182,8 +183,8 @@
             "text": "<p>Can't find what you're looking for?</p>",
             "size": 115,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_Gz7fGa": {
@@ -244,7 +245,7 @@
         "heading_size": 80,
         "text_size": 90,
         "bg_color": "",
-        "text_color": "#333",
+        "text_color": "#333333",
         "box_color": "",
         "color_border": "#191919",
         "button_text": "",
