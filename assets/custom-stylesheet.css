@@ -1390,7 +1390,8 @@ section {
   }
 
   .banner-image__text-wrapper--wide {
-    width: 60%;
+    width: 50%;
+    margin-right: 50px;
   }
 
   .banner-image__text-wrapper::before {
