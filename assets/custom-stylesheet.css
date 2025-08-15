@@ -1649,6 +1649,33 @@ section {
   transform: scale(1.1);
 }
 
+/* Banner Image Container */
+.banner-image__image-container {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  z-index: 1;
+}
+
+.banner-image__image-inner {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  overflow: hidden;
+}
+
+.banner-image__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Dark background for banner text wrapper */
 .banner-image__text-wrapper--dark-bg {
   background-color: #161616;
