@@ -277,12 +277,13 @@
     <div class="overlapping-images__block{% if text_position == 'left' %} overlapping-images__block--reverse{% endif %}">
       <div class="overlapping-images__images{% if hide_image_2 %} overlapping-images__images--single-mobile{% endif %}" style="max-width: {{ images_width }}px;">
         <div class="overlapping-images__images-inner{% if single_image %} overlapping-images__images-inner--single{% endif %}"{{ parallax_attributes }}>
-          {%- unless image_1 == blank -%}
+
+          {%- unless image_2 == blank -%}
             {%- capture image_bg -%}
-              {%- render 'image-fill', img_object: image_1, sizes: sizes, classes: 'overlapping-images__image-bg' -%}
+              {%- render 'image-fill', img_object: image_2, sizes: sizes, classes: 'overlapping-images__image-bg' -%}
             {%- endcapture -%}
 
-            <div class="overlapping-images__image{% if image_2 != blank %} overlapping-images__image--primary{% endif %}{% if image_link_1 != blank %} hover-scale{% endif %}"
+            <div class="overlapping-images__image{% if image_1 != blank %} overlapping-images__image--primary{% endif %}{% if image_link_2 != blank %} hover-scale{% endif %}"
               {% if animations_enabled %}
                 {% if single_image %}
                   data-aos="fade-up"
@@ -293,8 +294,8 @@
                 data-aos-delay="{{ animation_delay }}"
                 {%- assign animation_delay = animation_delay | plus: 150 -%}
               {% endif %}>
-              {%- if image_link_1 != blank -%}
-                <a href="{{ image_link_1 }}" aria-label="{{ image_1.alt | strip_html | escape }}">
+              {%- if image_link_2 != blank -%}
+                <a href="{{ image_link_2 }}" aria-label="{{ image_2.alt | strip_html | escape }}">
                   {{- image_bg -}}
                 </a>
               {%- else -%}
@@ -303,12 +304,12 @@
             </div>
           {%- endunless -%}
 
-          {%- unless image_2 == blank -%}
+          {%- unless image_1 == blank -%}
             {%- capture image_bg -%}
-              {%- render 'image-fill', img_object: image_2, sizes: sizes, classes: 'overlapping-images__image-bg' -%}
+              {%- render 'image-fill', img_object: image_1, sizes: sizes, classes: 'overlapping-images__image-bg' -%}
             {%- endcapture -%}
 
-            <div class="overlapping-images__image{% if image_1 != blank %} overlapping-images__image--secondary{% endif %}{% if image_link_2 != blank %} hover-scale{% endif %}"
+            <div class="overlapping-images__image{% if image_2 != blank %} overlapping-images__image--secondary{% endif %}{% if image_link_1 != blank %} hover-scale{% endif %}"
               {% if animations_enabled %}
                 {% if single_image %}
                   data-aos="fade-up"
@@ -319,8 +320,8 @@
                 data-aos-delay="{{ animation_delay }}"
                 {%- assign animation_delay = animation_delay | plus: 150 -%}
               {% endif %}>
-              {%- if image_link_2 != blank -%}
-                <a href="{{ image_link_2 }}" aria-label="{{ image_2.alt | strip_html | escape }}">
+              {%- if image_link_1 != blank -%}
+                <a href="{{ image_link_1 }}" aria-label="{{ image_1.alt | strip_html | escape }}">
                   {{- image_bg -}}
                 </a>
               {%- else -%}
