@@ -26012,7 +26012,7 @@ input.shopify-payment-button__button--unbranded
 
 /*================ Overlapping images ================*/
 .overlapping-images {
-  --image-offset: 20px;
+  --image-offset: 50px;
   --image-offset-negative: calc(var(--image-offset) * -1);
   overflow: hidden;
   background: var(--bg);
@@ -26094,13 +26094,7 @@ input.shopify-payment-button__button--unbranded
   align-items: flex-start;
   margin: 0 calc(var(--image-offset-negative) / 2);
 }
-.overlapping-images__block--reverse .overlapping-images__images-inner {
-  display: grid; 
-  direction: rtl;
-}
-.overlapping-images__block--reverse .overlapping-images__image {
-  direction: ltr;
-}
+
 @media only screen and (max-width: 767px) {
   .overlapping-images__images-inner {
     width: calc(100% + var(--gutter-mobile) * 2);
@@ -26116,14 +26110,12 @@ input.shopify-payment-button__button--unbranded
 
 .overlapping-images__image--primary {
   z-index: 1;
-  margin-top: 10px;
+  margin-top: var(--image-offset);
   left: calc(var(--image-offset) / 2);
 }
 
 .overlapping-images__image--secondary {
-  margin-top: -30px;
-  z-index: 2;
-  left: -10px;
+  left: calc(var(--image-offset-negative) / 2);
 }
 .overlapping-images__image--secondary .overlapping-images__image-bg {
   transform: translate3d(
