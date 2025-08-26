@@ -26095,7 +26095,7 @@ input.shopify-payment-button__button--unbranded
   margin: 0 calc(var(--image-offset-negative) / 2);
 }
 .overlapping-images__block--reverse .overlapping-images__images-inner {
-  display: grid; /* keep grid if needed */
+  display: grid; 
   direction: rtl;
 }
 .overlapping-images__block--reverse .overlapping-images__image {
