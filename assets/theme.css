@@ -26012,7 +26012,7 @@ input.shopify-payment-button__button--unbranded
 
 /*================ Overlapping images ================*/
 .overlapping-images {
-  --image-offset: 50px;
+  --image-offset: 20px;
   --image-offset-negative: calc(var(--image-offset) * -1);
   overflow: hidden;
   background: var(--bg);
@@ -26116,12 +26116,14 @@ input.shopify-payment-button__button--unbranded
 
 .overlapping-images__image--primary {
   z-index: 1;
-  margin-top: var(--image-offset);
+  margin-top: 10px;
   left: calc(var(--image-offset) / 2);
 }
 
 .overlapping-images__image--secondary {
-  left: calc(var(--image-offset-negative) / 2);
+  margin-top: -30px;
+  z-index: 2;
+  left: -10px;
 }
 .overlapping-images__image--secondary .overlapping-images__image-bg {
   transform: translate3d(
