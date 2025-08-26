@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*============================================================================
   Palo Alto | Built with Skate
@@ -36476,3 +36477,31 @@ search-form mark {
   width: 100%;
   object-fit: cover;
 }
+/* Policies Tabs Styles */
+.policies-tabs-wrapper {
+  display: flex;
+  padding: 3rem 0;
+  gap: 4rem;
+  align-items: flex-start;
+}
+.policies-tabs-nav {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+}
+.policies-tab-btn {
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+} 
+.policies-tab-btn.active {
+  color: #fff;
+}
+.policies-tabs-content {
+  flex: 1;
+  padding-right: 16rem;
+  min-height: 400px;
+}
+.policies-tab-content { display: none; }
+.policies-tab-content.active { display: block; }

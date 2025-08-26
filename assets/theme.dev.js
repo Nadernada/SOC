@@ -23691,3 +23691,17 @@
   themeVendor.themeCurrency,
   themeVendor.ajaxinate
 );
+// Policies Tabs Script
+document.addEventListener('DOMContentLoaded', function() {
+  var tabBtns = document.querySelectorAll('.policies-tab-btn');
+  var tabContents = document.querySelectorAll('.policies-tab-content');
+  tabBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      tabBtns.forEach(function(b) { b.classList.remove('active'); });
+      tabContents.forEach(function(tc) { tc.classList.remove('active'); });
+      btn.classList.add('active');
+      var tab = btn.getAttribute('data-tab');
+      document.getElementById('tab-' + tab).classList.add('active');
+    });
+  });
+});

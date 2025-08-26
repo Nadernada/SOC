@@ -1,0 +1,25 @@
+<!--
+  Custom Terms/Policies Page Section
+  This section renders a vertical tab navigation for Terms of Service, Privacy Policy, and Cookie Policy.
+  The content for each tab is loaded dynamically from Shopify pages or static HTML below.
+-->
+
+<div class="policies-tabs-wrapper">
+  <div class="policies-tabs-nav">
+    <button class="policies-tab-btn active" data-tab="terms">Terms of Service</button>
+    <button class="policies-tab-btn" data-tab="privacy">Privacy Policy</button>
+    <button class="policies-tab-btn" data-tab="cookie">Cookie Policy</button>
+  </div>
+  <div class="policies-tabs-content">
+    <div class="policies-tab-content active" id="tab-terms">
+      {% render 'policy-terms-of-service' %}
+    </div>
+    <div class="policies-tab-content" id="tab-privacy">
+      {% render 'policy-privacy-policy' %}
+    </div>
+    <div class="policies-tab-content" id="tab-cookie">
+      {% render 'policy-cookie-policy' %}
+    </div>
+  </div>
+</div>
+
