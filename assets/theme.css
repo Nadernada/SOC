@@ -26218,7 +26218,20 @@ input.shopify-payment-button__button--unbranded
 .no-js .page-customer .is-hidden {
   display: block;
 }
+.overlapping-images__images-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* assuming two columns */
+  gap: 0; /* remove extra space between images */
+}
 
+/* Swap positions */
+.overlapping-images__image--primary {
+  grid-column: 2; /* move primary to the second column */
+}
+
+.overlapping-images__image--secondary {
+  grid-column: 1; /* move secondary to the first column */
+}
 /*================ 404 ================*/
 #four-oh-four {
   padding: 50px 0;
