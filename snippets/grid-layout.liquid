@@ -125,7 +125,8 @@
   }
 {%- endstyle -%}
 
-<section id="{{ section_id }}"
+<section
+  id="{{ section_id }}"
   class="mosaic{{ section_class }} section-padding{% if bg_color_secondary %} bg-secondary{% endif %}"
   data-section-id="{{ section.id }}"
   data-section-type="mosaic"
@@ -379,65 +380,86 @@
                   <a href="{{ button_1_link }}" class="mosaic__item__image__link">
                 {%- endif -%}
 
-                  {%- if has_image -%}
-                    {{ item_image }}
-                  {%- endif -%}
+                {%- if has_image -%}
+                  {{ item_image }}
+                {%- endif -%}
 
-                  <div class="mosaic__item__content{% unless has_content %} no-content{% endunless %} {{ text_position_class }}{% if button_1_link == blank %} mosaic__item__content--nolink{% endif %}">
-                    <div id="{{ content_inner_id }}"
-                      class="mosaic__item__content-inner"
-                      {% if animations_enabled %}
-                        data-aos="hero"
-                        data-aos-anchor="{{ content_inner_anchor }}"
-                        data-aos-order="{{ forloop.index }}"
-                        data-aos-intersection="0"
-                        data-item-content-inner
-                      {% endif %}
-                    >
-                      {%- if subheading != blank -%}
-                        <p class="mosaic__item__subheading subheading-text">{{ subheading }}</p>
-                      {%- endif -%}
+                <div class="mosaic__item__content{% unless has_content %} no-content{% endunless %} {{ text_position_class }}{% if button_1_link == blank %} mosaic__item__content--nolink{% endif %}">
+                  <div
+                    id="{{ content_inner_id }}"
+                    class="mosaic__item__content-inner"
+                    {% if animations_enabled %}
+                      data-aos="hero"
+                      data-aos-anchor="{{ content_inner_anchor }}"
+                      data-aos-order="{{ forloop.index }}"
+                      data-aos-intersection="0"
+                      data-item-content-inner
+                    {% endif %}
+                  >
+                    {%- if subheading != blank -%}
+                      <p class="mosaic__item__subheading subheading-text">{{ subheading }}</p>
+                    {%- endif -%}
 
-                      {%- if heading != blank -%}
-                        <h3 class="mosaic__item__heading h2"
+                    {%- if heading != blank -%}
+                      <h3
+                        class="mosaic__item__heading h2"
                         {% if animations_enabled %}
                           data-aos="heading"
                           data-aos-anchor="{{ content_inner_anchor }}"
                           data-aos-order="{{ forloop.index | plus: 3 }}"
                           data-aos-intersection="0"
                         {% endif %}
-                        ><div class="black-square-bg">{{ heading }}</div></h3>
-                      {%- endif -%}
+                      >
+                        <div class="black-square-bg">{{ heading }}</div>
+                      </h3>
+                    {%- endif -%}
 
-                      {%- if text != blank -%}
-                        <div class="mosaic__item__text p">
-                          {{- text -}}
-                        </div>
-                      {%- endif -%}
+                    {%- if text != blank -%}
+                      <div class="mosaic__item__text p">
+                        {{- text -}}
+                      </div>
+                    {%- endif -%}
 
-                      {%- if price != blank -%}
-                        <div class="mosaic__item__price p">
-                          {{- price -}}
-                        </div>
-                      {%- endif -%}
+                    {%- if price != blank -%}
+                      <div class="mosaic__item__price p">
+                        {{- price -}}
+                      </div>
+                    {%- endif -%}
 
-                      {%- if button_1_text != blank or button_2_text != blank -%}
-                        <div class="mosaic__item__buttons">
-                          {%- if button_1_text != blank and button_1_link != blank -%}
-                            <a href="{{ button_1_link }}" class="mosaic__item__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}">{{ button_1_text }}</a>
-                          {%- elsif button_1_text != blank -%}
-                            <span class="mosaic__item__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}">{{ button_1_text }}</span>
-                          {%- endif -%}
+                    {%- if button_1_text != blank or button_2_text != blank -%}
+                      <div class="mosaic__item__buttons">
+                        {%- if button_1_text != blank and button_1_link != blank -%}
+                          <a
+                            href="{{ button_1_link }}"
+                            class="mosaic__item__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}"
+                          >
+                            {{- button_1_text -}}
+                            <span class="btn-arrow">{% render 'icon-arrow-right-bold' %}</span>
+                          </a>
 
-                          {%- if button_2_text != blank and button_2_link != blank -%}
-                            <a href="{{ button_2_link }}" class="mosaic__item__btn btn {{ button_2_style }} {{ button_2_size }} {{ button_2_color }}">{{ button_2_text }}</a>
-                          {%- elsif button_2_text != blank -%}
-                            <span class="mosaic__item__btn btn {{ button_2_style }} {{ button_2_size }} {{ button_2_color }}">{{ button_2_text }}</span>
-                          {%- endif -%}
-                        </div>
-                      {%- endif -%}
-                    </div>
+                        {%- elsif button_1_text != blank -%}
+                          <span class="mosaic__item__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}">
+                            {{- button_1_text -}}
+                            <span class="btn-arrow">{% render 'icon-arrow-right-bold' %}</span>
+                          </span>
+                        {%- endif -%}
+
+                        {%- if button_2_text != blank and button_2_link != blank -%}
+                          <a
+                            href="{{ button_2_link }}"
+                            class="mosaic__item__btn btn {{ button_2_style }} {{ button_2_size }} {{ button_2_color }}"
+                          >
+                            {{- button_2_text -}}
+                          </a>
+                        {%- elsif button_2_text != blank -%}
+                          <span class="mosaic__item__btn btn {{ button_2_style }} {{ button_2_size }} {{ button_2_color }}">
+                            {{- button_2_text -}}
+                          </span>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
                   </div>
+                </div>
 
                 {%- if image_link -%}
                   </a>
