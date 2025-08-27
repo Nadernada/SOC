@@ -42,7 +42,7 @@
     "button_caps": false,
     "primary_buttons_color": "#000000",
     "secondary_buttons_color": "#ecc76f",
-    "content_alignment": "center",
+    "content_alignment": "inline",
     "heading_style": "font-heading",
     "product_grid_heading_size": 90,
     "product_grid_text_size": 90,
