@@ -476,78 +476,6 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
-    },
-    "section-columns-0": {
-      "type": "section-columns",
-      "blocks": {
-        "section-columns-0-block-0": {
-          "type": "text_block",
-          "settings": {
-            "title": "NEW CUSTOMERS GET 5% OFF",
-            "text": "<p>Available on your first purchase</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "section-columns-0-block-1": {
-          "type": "text_block",
-          "settings": {
-            "title": "100% OFFICIAL MERCHANDISE",
-            "text": "<p>Wear it with pride</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "section-columns-0-block-2": {
-          "type": "text_block",
-          "settings": {
-            "title": "WORLDWIDE SHIPPING",
-            "text": "<p>Easy delivery to your location, wherever you are</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "section-columns-0-block-0",
-        "section-columns-0-block-1",
-        "section-columns-0-block-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "align_text": "text-center",
-        "columns": 3,
-        "columns_mobile": "1",
-        "show_images": false,
-        "show_borders": true,
-        "equalize_height": true,
-        "desktop_aspect_ratio": 1,
-        "mobile_aspect_ratio": 0.8,
-        "heading_size": 100,
-        "text_size": 80,
-        "bg_color_secondary": false,
-        "color_borders": "#ffffff",
-        "layout_mobile": "stacked",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -561,7 +489,6 @@
     "section-overlapping-images-0",
     "section_collection_kaRFct",
     "section-newsletter-0",
-    "section_icons_row_jpYhVd",
-    "section-columns-0"
+    "section_icons_row_jpYhVd"
   ]
 }
