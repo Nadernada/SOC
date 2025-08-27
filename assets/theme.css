@@ -36425,7 +36425,7 @@ search-form mark {
 .btn-arrow svg {
   width: 1.2em;
   height: 1.2em;
-  stroke: currentColor;
+  /* stroke: currentColor; */
   fill: currentColor;
 }
 .btn {
