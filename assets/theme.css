@@ -29441,6 +29441,7 @@ search-form mark {
 .product-upsell__content {
   position: relative;
   z-index: 2;
+  color: black;
   flex: 0 0 calc(100% - var(--UPSELLS-IMAGE-WIDTH));
   max-width: calc(100% - var(--UPSELLS-IMAGE-WIDTH));
   padding: 5px 0 5px var(--inner);
