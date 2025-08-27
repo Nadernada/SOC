@@ -515,12 +515,13 @@ html:not(:lang(ar)) .arabic-banner {
 
 .footer-copyright {
   width: 100%;
-  justify-content: center;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   display: flex;
 }
-
 #SiteFooter .footer-bottom {
   --grid-columns: 3 !important;
+  
 }
 
 .footer-bottom > :last-child:not(:only-child) .localization-form {

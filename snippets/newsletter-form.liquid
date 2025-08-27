@@ -103,11 +103,11 @@
         <input type="email" id="Email--{{ unique }}"
           class="input-group__field input-group__field--email"
           value="{% if customer %}{{ customer.email }}{% endif %}"
-          placeholder="{{ 'general.newsletter_form.email' | t }}"
+          placeholder="{% if section.location == 'footer' or template contains 'footer' %}enter your email{% else %}{{ 'general.newsletter_form.email' | t }}{% endif %}"
           name="contact[email]"
           autocorrect="off"
           autocapitalize="off"
-          aria-label="{{ 'general.newsletter_form.email' | t }}"
+          aria-label="{% if section.location == 'footer' or template contains 'footer' %}enter your email{% else %}{{ 'general.newsletter_form.email' | t }}{% endif %}"
           {% if form.errors contains 'email' %}
             aria-invalid="true"
           {% endif %}
@@ -119,6 +119,11 @@
       <button type="submit" name="subscribe" id="SubscribeSubmit--{{ unique }}" class="{{ button_class }}"{% if is_popup %} data-newsletter-submit{% endif %}>
         {%- if button_text != blank -%}
           {{- button_text -}}
+          <span class="btn-arrow">
+            <svg width="12" height="13" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+              <path d="M14.1385 10.125L1 10.125L1 7.875L14.1385 7.875L7.80781 1.575L9.5 0L18 9L9.5 18L7.80781 16.425L14.1385 10.125Z" fill="currentColor"/>
+            </svg>
+          </span>
         {%- else -%}
           <span class="visually-hidden">{{ 'general.accessibility.subscribe_to_newsletter' | t }}</span>
           {%- render 'icon-select' -%}
@@ -135,6 +140,9 @@
       <div class="input-group__item input-group__item--text disclaimer{% if extra_fields == 'name' %} disclaimer--inline{% endif %}">
         {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
       </div>
+      {%- if input_group_inline -%}
+        </div>
+      {%- endif -%}
     {%- endif -%}
   </div>
 
