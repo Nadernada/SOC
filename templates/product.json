@@ -366,7 +366,7 @@
         "button_style": "btn--solid",
         "button_size": "btn--small",
         "layout_mobile": "stacked",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "padding_top": 30,
         "padding_bottom": 30
       }
