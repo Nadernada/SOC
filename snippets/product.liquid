@@ -341,7 +341,22 @@
                   {%- endif -%}
                 </h1>
               </div>{%- assign currency_code_enable = settings.currency_code_enable -%}
-
+ {%- when 'description' -%}
+              <div class="product__block product__description rte"
+                {% if animations_enabled %}
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                  {%- assign animation_order = animation_order | plus: 1 -%}
+                {% endif %}
+                {{ block_style }}
+                {{ block.shopify_attributes }}>
+                {%- unless product == blank -%}
+                  {{- product.description -}}
+                {%- else -%}
+                  <p>{{ 'homepage.onboarding.single_product_description' | t }}</p>
+                {%- endunless -%}
+              </div>
 <div class="product__block product__price-and-badge"
   {% if animations_enabled %}
     data-aos="hero"
@@ -996,6 +1011,7 @@
                 </legend>
 
                 <div class="radio__buttons" data-variant-buttons>
+                  
                   {%- for value in option.values -%}
                     {%- capture input_id -%}{{ unique }}-{{ product.id }}-{{ option.name | escape_once }}-{{ value | handle }}{%- endcapture -%}
 
@@ -1591,22 +1607,7 @@
                 {{ block_style }}
                 {{ block.shopify_attributes }}></div>
 
-            {%- when 'description' -%}
-              <div class="product__block product__description rte"
-                {% if animations_enabled %}
-                  data-aos="hero"
-                  data-aos-anchor="{{ animation_anchor }}"
-                  data-aos-order="{{ animation_order }}"
-                  {%- assign animation_order = animation_order | plus: 1 -%}
-                {% endif %}
-                {{ block_style }}
-                {{ block.shopify_attributes }}>
-                {%- unless product == blank -%}
-                  {{- product.description -}}
-                {%- else -%}
-                  <p>{{ 'homepage.onboarding.single_product_description' | t }}</p>
-                {%- endunless -%}
-              </div>
+           
 
             {%- when 'cutline' -%}
               {%- assign cutline_color = block.settings.cutline_color -%}
