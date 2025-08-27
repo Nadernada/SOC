@@ -158,6 +158,7 @@
         "enable_mobile_height": true,
         "mobile_height": "three-fifty-height-mobile",
         "heading_size": 100,
+        "show_arrow_icon": false,
         "button_1_color": "btn--secondary",
         "button_1_style": "btn--solid",
         "button_1_size": "btn--small",
