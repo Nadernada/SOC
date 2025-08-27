@@ -1697,7 +1697,7 @@ input.btn--text.shopify-payment-button__button--unbranded {
   width: 100%;
   height: var(--BORDER-WIDTH);
   display: block;
-  background: var(--btn-text, var(--text));
+  background: black;
   transition: none;
   pointer-events: none;
 }
@@ -36509,4 +36509,9 @@ button.is-active,
 .btn:active,
 .btn.is-active {
   color: #ECC76F !important;
+}
+/* Footer bottom border and padding */
+.footer-bottom__content {
+  border-top: 1px solid var(--border, #e5e7eb);
+  padding-top: 4rem;
 }
