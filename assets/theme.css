@@ -22500,7 +22500,6 @@ search-popdown details > summary:first-of-type {
 }
 
 .icons-row--borders-horizontal {
-  /* border-top: var(--BORDER-WIDTH) solid var(--border); */
   border-bottom: 0.5px solid #BEBEBE;
 }
 
@@ -36560,6 +36559,7 @@ footer.site-footer, footer.site-footer * {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.02em;
+  text-transform: none !important;
 }
 footer.site-footer .newsletter button,
 footer.site-footer .newsletter-section__entry button,
@@ -36570,6 +36570,7 @@ footer.site-footer .footer-block--newsletter input[type="submit"] {
   color: #000 !important;
   font-family: 'Gotham', Arial, sans-serif !important;
   font-weight: 400 !important;
+   text-transform: none !important;
   font-style: normal !important;
   font-size: 16px !important;
   padding: 12px 24px !important;
