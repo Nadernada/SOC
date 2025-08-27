@@ -418,6 +418,65 @@
         "padding_bottom": 60
       }
     },
+    "section_icons_row_jpYhVd": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_X3zCyn": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "NEW CUSTOMERS GET 5% OFF",
+            "text": "<p>Available on your first purchase</p>"
+          }
+        },
+        "text_NcDhfW": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "100% OFFICIAL MERCHANDISE",
+            "text": "<p>Wear it with pride</p>"
+          }
+        },
+        "text_jnwVkJ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Easy delivery to your location, wherever you are</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_X3zCyn",
+        "text_NcDhfW",
+        "text_jnwVkJ"
+      ],
+      "name": "Icons row",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "show_vertical_borders": true,
+        "show_horizontal_borders": false,
+        "heading_size": 80,
+        "text_size": 70,
+        "bg_color": "#000000",
+        "text_color": "#ffffff",
+        "box_color": "",
+        "color_border": "#333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "section-columns-0": {
       "type": "section-columns",
       "blocks": {
@@ -469,6 +528,7 @@
         "section-columns-0-block-1",
         "section-columns-0-block-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "text-center",
@@ -501,6 +561,7 @@
     "section-overlapping-images-0",
     "section_collection_kaRFct",
     "section-newsletter-0",
+    "section_icons_row_jpYhVd",
     "section-columns-0"
   ]
 }
