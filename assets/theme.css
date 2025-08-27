@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*============================================================================
   Palo Alto | Built with Skate
@@ -36512,6 +36513,14 @@ button.is-active,
 }
 /* Footer bottom border and padding */
 .footer-bottom__content {
-  border-top: 1px solid var(--border, #e5e7eb);
-  padding-top: 4rem;
+  border-top: 0.5px solid #BEBEBE;
+  padding-top: 3rem;
+}
+.footer-content{
+  padding-top: 3rem;
+   border-top: 0.5px solid #BEBEBE
+}
+/* Footer bottom container padding */
+.footer-bottom {
+  padding-bottom: 3rem;
 }
