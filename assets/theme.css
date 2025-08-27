@@ -20164,6 +20164,7 @@ body:not(.no-outline)
   max-width: 100%;
   width: auto;
   padding: 0 3px;
+  background-color: transparent;
   border: var(--BORDER-WIDTH) solid transparent;
   border-radius: 0;
   margin: 0;
