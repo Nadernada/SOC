@@ -580,6 +580,7 @@ html:not(:lang(ar)) .arabic-banner {
 .radio__fieldset {
   display: flex !important;
   flex-direction: row;
+  gap: 1rem;
   align-items: center;
 }
 
