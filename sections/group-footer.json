@@ -39,7 +39,7 @@
           "type": "link",
           "settings": {
             "alignment": "text-left",
-            "menu": "footer-menu",
+            "menu": "footer",
             "title": "Supercar Owners Circle Store",
             "column_width": "33.33"
           }
