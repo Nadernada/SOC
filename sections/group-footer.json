@@ -48,7 +48,7 @@
           "type": "link",
           "settings": {
             "alignment": "text-left",
-            "menu": "dev-menu",
+            "menu": "footer-menu-drg",
             "title": "duPont REDISTRY Group",
             "column_width": "20"
           }
