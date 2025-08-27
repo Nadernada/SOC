@@ -12765,6 +12765,7 @@ body:has(.site-header[data-transparent="true"]):has(.main-content > .supports-tr
   margin: 0 0 0 auto;
   font-size: calc(0.815rem * var(--adjust-body));
   line-height: 1.25;
+  font-weight: bold;
   text-align: right;
 }
 
@@ -12821,6 +12822,7 @@ body:has(.site-header[data-transparent="true"]):has(.main-content > .supports-tr
 .cart__item__selected-options,
 .cart__item__property {
   margin: 2px 0 0;
+  font-weight: bold;
   font-size: calc(0.75rem * var(--adjust-body));
 }
 
@@ -36856,6 +36858,9 @@ search-form mark {
 .cart__checkout {
   color: black !important;
   text-align: center;
+  font-size: 14px;
+   text-transform: uppercase;
+  font-weight: 500;
   display: flex;
   gap: 8px;
   flex-direction: row;
