@@ -236,35 +236,6 @@
     },
     "section_collection_kLa8g8": {
       "type": "section-collection",
-      "blocks": {
-        "promo_XPY9LE": {
-          "type": "promo",
-          "settings": {
-            "position": 1,
-            "width": "auto",
-            "title": "<p>Promotion title</p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "heading_size": 100,
-            "content": "Advertise a promotion or a sale",
-            "text_size": 100,
-            "text_color": "text-light",
-            "text_position": "center",
-            "layout": "stacked",
-            "overlay_opacity": 10,
-            "bg_color": "#d3d3d3",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "promo_XPY9LE"
-      ],
       "name": "Featured collection",
       "settings": {
         "collection": "{{ collection }}",

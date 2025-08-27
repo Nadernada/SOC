@@ -90,9 +90,9 @@
         "show_locale_selector": true,
         "show_country_selector": true,
         "show_country_flag": false,
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     }
   },
