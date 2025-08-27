@@ -395,9 +395,9 @@ html:not(:lang(ar)) .arabic-banner {
 }
 
 .btn--black:hover {
-  background-color: var(--accent);
+  background-color: transparent;
   border: 1px var(--accent) solid;
-  color: white;
+  color: var(--accent);
 }
 
 .shopify-payment-button__button--unbranded:hover {

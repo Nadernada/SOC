@@ -12276,18 +12276,21 @@ body:has(.site-header[data-transparent="true"]):has(.main-content > .supports-tr
   right: 0;
   bottom: 0;
   left: 0;
-  background: var(--black);
-  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(8 8 8 / 21%);
+  /* Remove opacity property */
   visibility: hidden;
   content: "";
   z-index: 9998;
-  transition: visibility 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  backdrop-filter: blur(10px);
+  /* transition: visibility 0.4s ease-in-out, opacity 0.4s ease-in-out; */
 }
 
 .modal--is-visible .drawer__overlay,
 .js-drawer-open-cart .drawer__overlay,
 .js-drawer-open .drawer__overlay {
-  opacity: 0.2;
+  /* opacity: 0.2; */
   visibility: visible;
   will-change: opacity;
 }
