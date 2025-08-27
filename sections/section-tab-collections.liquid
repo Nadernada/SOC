@@ -93,40 +93,51 @@
   data-section-id="{{ section.id }}"
   data-section-type="tab-collections"
   data-columns="{{ columns }}"
-  {% if animations_enabled %} data-aos-watch-anchors{% endif %}
+  {% if animations_enabled %}
+    data-aos-watch-anchors
+  {% endif %}
 >
-
   <div class="{{ section_width }}">
     {%- if section.settings.title != empty -%}
       <div class="section__header {{ text_alignment }}">
-        <h2 class="h2"
+        <h2
+          class="h2"
           {% if animations_enabled %}
             data-aos="fade-up"
             data-aos-anchor="{{ aos_anchor }}"
             data-aos-delay="{{ animation_delay }}"
             {%- assign animation_delay = animation_delay | plus: 150 -%}
-          {% endif %}>{{ section.settings.title }}</h2>
+          {% endif %}
+        >
+          {{ section.settings.title }}
+        </h2>
 
         {%- if settings.show_spacer_lines -%}
-          <hr class="section__heading-line"
-          {% if animations_enabled %}
-            data-aos="fade-up"
-            data-aos-delay="{{ animation_delay }}"
-            data-aos-anchor="{{ aos_anchor }}"
-          {% endif %}>
+          <hr
+            class="section__heading-line"
+            {% if animations_enabled %}
+              data-aos="fade-up"
+              data-aos-delay="{{ animation_delay }}"
+              data-aos-anchor="{{ aos_anchor }}"
+            {% endif %}
+          >
           {%- assign animation_delay = animation_delay | plus: 150 -%}
         {%- endif -%}
       </div>
     {%- endif -%}
 
     {%- if section.settings.text != empty -%}
-      <p class="{{ text_alignment }} tab-collections__text"
+      <p
+        class="{{ text_alignment }} tab-collections__text"
         {% if animations_enabled %}
           data-aos="fade-up"
           data-aos-anchor="{{ aos_anchor }}"
           data-aos-delay="{{ animation_delay }}"
           {%- assign animation_delay = animation_delay | plus: 150 -%}
-        {% endif %}>{{ section.settings.text }}</p>
+        {% endif %}
+      >
+        {{ section.settings.text }}
+      </p>
     {%- endif -%}
 
     {%- if section.blocks.size > 0 -%}
@@ -243,9 +254,9 @@
                           <div class="overlay"></div>
 
                           <div class="tab-collections__featured-item__content">
-                            {%- if tab_collection_products.size > 0 -%}
+                            {% comment %} {%- if tab_collection_products.size > 0 -%}
                               <span class="tab-collections__products-counter subheading-text">{{ 'products.general.products_with_count' | t: count: tab_collection.all_products_count }}</span>
-                            {%- endif -%}
+                            {%- endif -%} {% endcomment %}
 
                             {%- if heading != blank -%}
                               <div class="tab-collections__heading h1"
@@ -271,6 +282,7 @@
                                   href="{{ button_link | default: '#' }}">
                                   {{- button_text | escape -}}
                                 </a>
+                                {% render 'icon-arrow-right', class: 'btn__icon' %}
                               </div>
                             {%- endif -%}
                           </div>
@@ -331,13 +343,15 @@
         {%- endfor -%}
 
         {%- if tabs_navigation != '' and section.blocks.size > 1 or show_buttons -%}
-          <div class="tabs__head tab-collections__head{% if show_buttons and collection_buttons != blank %} tab-collections__head--has-button{% endif %} {{ text_alignment }}"
+          <div
+            class="tabs__head tab-collections__head{% if show_buttons and collection_buttons != blank %} tab-collections__head--has-button{% endif %} {{ text_alignment }}"
             {% if animations_enabled %}
               data-aos="fade-up"
               data-aos-anchor="{{ aos_anchor }}"
               data-aos-delay="{{ animation_delay }}"
               {%- assign animation_delay = animation_delay | plus: 150 -%}
-            {% endif %}>
+            {% endif %}
+          >
             <div class="tabs-scrollbar {{ text_alignment }}" data-custom-scrollbar-parent>
               <div class="tabs-scrollbar__holder" data-custom-scrollbar-holder>
                 <ul class="tabs__nav {{ type_style }}" data-custom-scrollbar-items>
@@ -354,7 +368,8 @@
           </div>
         {%- endif -%}
 
-        <div id="tabCollectionsBody--{{ section.id }}"
+        <div
+          id="tabCollectionsBody--{{ section.id }}"
           class="tabs__contents"
           data-tabs-contents
           data-aos-intersection="0.2"
@@ -610,8 +625,8 @@
           "label": "Text color",
           "default": "text-light",
           "options": [
-            { "value": "text-light", "label": "Light"},
-            { "value": "text-dark", "label": "Dark"}
+            { "value": "text-light", "label": "Light" },
+            { "value": "text-dark", "label": "Dark" }
           ]
         },
         {
@@ -689,7 +704,7 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header","aside","footer"]
+    "groups": ["header", "aside", "footer"]
   }
 }
 {% endschema %}
