@@ -14388,7 +14388,10 @@ body:not(.no-outline) .radio__fieldset:focus-within+.swatch__more span:nth-child
 
 @media only screen and (min-width: 768px) {
   .payment-icon-list {
-    direction: rtl;
+    margin-top: 24px;
+  }
+  .payment-icon-list > li:nth-child(1) {
+    margin-left: 0;
   }
 }
 
@@ -22214,7 +22217,7 @@ search-popdown details>summary:first-of-type {
 }
 
 .icons-row--borders-horizontal {
-  border-bottom: 0.5px solid #BEBEBE;
+  border-bottom: 0.5px solid #bebebe;
 }
 
 .icons-row__headings {
@@ -25950,13 +25953,13 @@ input.shopify-payment-button__button--unbranded .buttons-list .shopify-payment-b
 }
 
 .overlapping-images__image--primary {
-  z-index: 1;
-  margin-top: var(--image-offset);
-  left: calc(var(--image-offset) / 2);
+  left: calc(var(--image-offset-negative) / 10);
 }
 
 .overlapping-images__image--secondary {
-  left: calc(var(--image-offset-negative) / 2);
+  z-index: 1;
+  margin-top: var(--image-offset);
+  left: calc(var(--image-offset) * -0.6);
 }
 
 .overlapping-images__image--secondary .overlapping-images__image-bg {
@@ -36902,7 +36905,10 @@ search-form mark {
   text-align: left;
   cursor: pointer;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .policies-tab-btn.active {
   color: #fff;
 }
@@ -36912,6 +36918,7 @@ search-form mark {
   padding-right: 16rem;
   min-height: 400px;
 }
+<<<<<<< Updated upstream
 
 .policies-tab-content {
   display: none;
@@ -36921,19 +36928,30 @@ search-form mark {
   display: block;
 }
 
+=======
+.policies-tab-content {
+  display: none;
+}
+.policies-tab-content.active {
+  display: block;
+}
+>>>>>>> Stashed changes
 button:active,
 button.is-active,
 .btn:active,
 .btn.is-active {
-  color: #ECC76F !important;
+  color: #ecc76f !important;
 }
 
 /* Footer bottom border and padding */
 .footer-bottom__content {
-  border-top: 0.5px solid #BEBEBE;
+  border-top: 0.5px solid #bebebe;
   padding-top: 3rem;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .footer-content {
   padding-top: 3rem;
 }
@@ -36945,7 +36963,7 @@ button.is-active,
 
 /* Footer copyright layout */
 .footer-copyright {
-  color: #9D9D9D;
+  color: #9d9d9d;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -36954,9 +36972,14 @@ button.is-active,
 
 .footer-copyright__right {
   display: flex;
+<<<<<<< Updated upstream
   gap: 1rem;
   text-decoration: underline;
 
+=======
+  gap: 2rem;
+  text-decoration: underline;
+>>>>>>> Stashed changes
 }
 
 /* Footer copyright neutral typography */
@@ -36971,13 +36994,18 @@ button.is-active,
 }
 
 .footer-copyright__left .driven-red {
-  color: #E10600 !important;
+  color: #e10600 !important;
 }
 
 Footer base font color footer.site-footer,
 footer.site-footer * {
+<<<<<<< Updated upstream
   color: #9D9D9D !important;
   font-family: 'Gotham', Arial, sans-serif;
+=======
+  color: #9d9d9d !important;
+  font-family: "Gotham", Arial, sans-serif;
+>>>>>>> Stashed changes
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -36993,7 +37021,7 @@ footer.site-footer form.newsletter-form button,
 footer.site-footer .footer-block--newsletter button,
 footer.site-footer .footer-block--newsletter input[type="submit"] {
   color: #000 !important;
-  font-family: 'Gotham', Arial, sans-serif !important;
+  font-family: "Gotham", Arial, sans-serif !important;
   font-weight: 400 !important;
   text-transform: none !important;
   font-style: normal !important;
@@ -37010,7 +37038,7 @@ footer.site-footer .newsletter-form .input-group__btn.btn span,
 footer.site-footer .newsletter-form .input-group__btn.btn::before,
 footer.site-footer .newsletter-form .input-group__btn.btn::after {
   color: #000 !important;
-  font-family: 'Gotham', Arial, sans-serif !important;
+  font-family: "Gotham", Arial, sans-serif !important;
   font-weight: 500 !important;
   font-size: 16px !important;
   letter-spacing: -0.02em !important;
@@ -37020,15 +37048,18 @@ footer.site-footer .newsletter button,
 footer.site-footer .newsletter-section__entry button {
   color: #000 !important;
   padding: 12px 24px !important;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
 
 footer.site-footer .newsletter input[type="email"],
 footer.site-footer .newsletter-section__entry input[type="email"],
 footer.site-footer .footer-block--newsletter input[type="email"],
 footer.site-footer form.newsletter-form input[type="email"] {
-  color: #BEBEBE !important;
-  border: 1px solid #BEBEBE !important;
+  color: #bebebe !important;
+  border: 1px solid #bebebe !important;
 }
 
 .newsletter-form .btn-arrow {
@@ -37052,6 +37083,6 @@ footer.site-footer form.newsletter-form input[type="email"] {
 }
 
 footer.site-footer .newsletter-form input[type="email"]::placeholder {
-  color: #BEBEBE !important;
+  color: #bebebe !important;
   opacity: 1;
 }

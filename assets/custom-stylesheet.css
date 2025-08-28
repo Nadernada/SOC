@@ -225,11 +225,50 @@ html:not(:lang(ar)) .arabic-banner {
   border-radius: calc(var(--RADIUS) / 1.5);
 }
 
-.product-grid-item__info-content {
+.product-grid-item__info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+}
+
+.product-grid-item__title {
+  font-size: 1.2rem;
+}
+
+.product-grid-item__title,
+.product-grid-item__price {
+  text-transform: uppercase;
+  font-weight: 400 !important;
+}
+
+.product-grid-item__price {
+  font-size: 0.9rem;
+}
+
+.tab-collections__btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tab-collections__btn-wrapper .btn--text {
+  font-size: clamp(1rem, 1.3vw, 1.3rem);
+  text-transform: uppercase;
+  font-family: "Garamond";
+}
+.tab-collections__btn-wrapper .btn--text::before,
+.tab-collections__btn-wrapper .btn--text::after {
+  background: white !important;
+}
+
+.tab-collections__btn-wrapper .btn--text .btn__icon {
+  margin-left: 0.5rem;
+}
+
+.tab-collections__btn-wrapper svg {
+  max-height: 1.2rem;
+  width: fit-content;
 }
 
 .offset {
@@ -378,9 +417,8 @@ html:not(:lang(ar)) .arabic-banner {
 
 .btn--primary {
   border: 2px transparent solid;
-  background : #ECC76F;
-  border: 1px solid #03674D
-
+  background: #ecc76f;
+  border: 1px solid #03674d;
 }
 
 .btn--primary:hover {
@@ -472,7 +510,7 @@ html:not(:lang(ar)) .arabic-banner {
 }
 
 .custom-carousel > div > div > div > .grid-item-custom.is-selected {
-  width: calc((var(--wrapper-width) - var(--grid-gutter) * 2) / 2) !important;
+  width: calc((var(--wrapper-width) - var(--grid-gutter) * 2) / 3) !important;
 }
 
 .custom-carousel > div > div > div > .grid-item-custom {
@@ -521,7 +559,6 @@ html:not(:lang(ar)) .arabic-banner {
 }
 #SiteFooter .footer-bottom {
   --grid-columns: 3 !important;
-  
 }
 
 .footer-bottom > :last-child:not(:only-child) .localization-form {
@@ -657,7 +694,7 @@ html:not(:lang(ar)) .arabic-banner {
 
 /* Style for contact form submit button */
 .form__item--submit .btn {
-  background: #ECC76F !important;
+  background: #ecc76f !important;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
@@ -675,13 +712,12 @@ html:not(:lang(ar)) .arabic-banner {
   text-align: center;
 }
 
-
 /* Style for contact form checkbox */
 .input--checkbox[type="checkbox"] {
   width: 25px;
   height: 25px;
   background: #161616;
-  border: 0.5px solid #FFFFFF;
+  border: 0.5px solid #ffffff;
   border-radius: 0;
   appearance: none;
   -webkit-appearance: none;
@@ -695,7 +731,7 @@ html:not(:lang(ar)) .arabic-banner {
 
 .input--checkbox[type="checkbox"]:checked {
   background: #161616;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .input--checkbox[type="checkbox"]:checked::after {
@@ -705,7 +741,7 @@ html:not(:lang(ar)) .arabic-banner {
   top: 5px;
   width: 6px;
   height: 12px;
-  border: solid #FFFFFF;
+  border: solid #ffffff;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -1669,16 +1705,18 @@ section {
 }
 
 .newsletter-section--with-shadow::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(to top, 
+  background: linear-gradient(
+    to top,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0.8) 50%,
-    transparent 100%);
+    transparent 100%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -1761,3 +1799,6 @@ img,
   box-shadow: none !important;
 }
 
+.icon-shopping-bag {
+  stroke: unset;
+}

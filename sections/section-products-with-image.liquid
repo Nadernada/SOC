@@ -67,7 +67,8 @@
   if title contains '</a>'
     assign add_collection_link = false
   endif
--%}{% comment %}
+-%}
+{% comment %}
   Enhanced text decorations options - Liquid variables
 
   Dependencies:
@@ -81,7 +82,7 @@
 
 {%- liquid
   comment
-   Highlighted words count
+    Highlighted words count
   endcomment
   assign title_temp = title | split: '<em>'
   assign em_arr = ''
@@ -106,7 +107,7 @@
   assign letters_count_arr = letters_count_arr | replace_last: ', ', '' | split: ', '
 
   comment
-   Main highlight types logic
+    Main highlight types logic
   endcomment
   assign icon_url = ''
   assign icon_color = 'var(--text)'
@@ -122,20 +123,20 @@
       case heading_highlight_type
         when 'squiggle'
           assign icon_url = 'icon-squiggle.svg' | asset_url
-        when 'circle' or 'circle-hand-drawn' or 'underline-hand-drawn'
+        when 'circle', 'circle-hand-drawn', 'underline-hand-drawn'
           echo '<span class="text-highlight__icon" data-highlight-holder>'
 
-            when 'circle'
-              render 'icon-circle'
-            when 'circle-hand-drawn'
-              render 'icon-circle-hand-drawn'
-            when 'underline-hand-drawn'
-              render 'icon-underline-hand-drawn'
+        when 'circle'
+          render 'icon-circle'
+        when 'circle-hand-drawn'
+          render 'icon-circle-hand-drawn'
+        when 'underline-hand-drawn'
+          render 'icon-underline-hand-drawn'
 
           echo '</span>'
-        when 'highlight' or 'squiggle'
+        when 'highlight', 'squiggle'
           echo '<span class="text-highlight__icon text-highlight__icon--pseudo" data-highlight-holder></span>'
-        when 'stroke' or 'circle' or 'circle-hand-drawn' or 'squiggle' or 'highlight' or 'highlight-color' or 'underline' or 'underline-hand-drawn'
+        when 'stroke', 'circle', 'circle-hand-drawn', 'squiggle', 'highlight', 'highlight-color', 'underline', 'underline-hand-drawn'
           assign has_text_highlight = true
       endcase
     endif
@@ -157,14 +158,14 @@
   capture text_highlight_start
     echo '<text-highlight class="text-highlight" ' | append: icon_styles | append: ' data-highlight-type="' | append: heading_highlight_type | append: '">'
     case heading_highlight_type
-      when 'stroke' or 'highlight-color' or 'underline'
+      when 'stroke', 'highlight-color', 'underline'
         echo '<span class="text-highlight__string" data-highlight-holder>'
     endcase
   endcapture
   capture text_highlight_end
     echo text_highlight_icon
     case heading_highlight_type
-      when 'stroke' or 'highlight-color' or 'underline'
+      when 'stroke', 'highlight-color', 'underline'
         echo '</span>'
     endcase
     echo '</text-highlight>'
@@ -172,10 +173,10 @@
 
   if title != blank and title contains '<em>'
     case heading_highlight_type
-      when 'squiggle' or 'circle' or 'circle-hand-drawn' or 'stroke' or 'highlight' or 'highlight-color' or 'underline' or 'underline-hand-drawn'
+      when 'squiggle', 'circle', 'circle-hand-drawn', 'stroke', 'highlight', 'highlight-color', 'underline', 'underline-hand-drawn'
         assign title = title | replace: '<em>', text_highlight_start | replace: '</em>', text_highlight_end
 
-      when 'circle' or 'circle-hand-drawn'
+      when 'circle', 'circle-hand-drawn'
         comment
           Update icon's holder class based on the italicised words count
         endcomment
@@ -215,7 +216,8 @@
         assign title = title_mod
     endcase
   endif
--%}{%- style -%}
+-%}
+{%- style -%}
   {{ selector_id }} {
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
@@ -368,7 +370,7 @@
       {%- liquid
         for product in products limit: number_of_products
           assign animation_delay = forloop.index0 | modulo: columns | times: 1
-          render 'product-grid-item', columns: columns, columns_mobile: columns_mobile, product: product, animation_delay: animation_delay, section_width: section_width
+          render 'product-grid-item-with-banner', columns: columns, columns_mobile: columns_mobile, product: product, animation_delay: animation_delay, section_width: section_width
         endfor
       -%}
   {%- else -%}
@@ -453,7 +455,7 @@
       "type": "range",
       "id": "number_of_products",
       "label": "Products",
-      "default":8,
+      "default": 8,
       "min": 1,
       "max": 48,
       "step": 1
@@ -714,7 +716,7 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header","aside"]
+    "groups": ["header", "aside"]
   }
 }
 {% endschema %}
