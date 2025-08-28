@@ -18657,7 +18657,7 @@
           wrapAround: true,
           adaptiveHeight: false,
           cellAlign: "left",
-          groupCells: false,
+          groupCells: true,
           contain: true,
           on: {
             ready: () => {

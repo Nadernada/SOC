@@ -1815,7 +1815,8 @@ img,
   position: relative;
 }
 
-.pointer:hover .pointer__quick-view__inner {
+.pointer:hover .pointer__quick-view__inner,
+.pointer:hover .pointer__quick-view__inner__content__info-line {
   opacity: 1;
 }
 
@@ -1824,6 +1825,21 @@ img,
   top: 50%;
   left: 50px;
   transform: translate(0, -65%);
+  opacity: 0;
+}
+
+.pointer__quick-view__inner__content__info-line {
+  position: absolute;
+  z-index: 3;
+  width: 40px;
+  height: 1px;
+  display: block;
+  background: white;
+  transform: rotate(var(--line-rotation));
+  transform-origin: 50% 50%;
+  pointer-events: none;
+  top: -5px;
+  right: -30px;
   opacity: 0;
 }
 
