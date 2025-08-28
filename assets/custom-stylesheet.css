@@ -811,7 +811,6 @@ body:not(.enable-carousel-transform) .flickity-slider {
 .image-with-text__image,
 .image-with-text__content {
   flex: 1 0 auto !important;
-  max-width: calc(50% - 4px) !important;
 }
 
 .form__item input::placeholder,
@@ -1356,6 +1355,20 @@ section {
 }
 
 @media only screen and (max-width: 796px) {
+  .image-with-text__items {
+    flex-flow: column;
+  }
+
+  .custom-scrollbar__thumb::before {
+    transform: scaleX(0.5);
+  }
+
+  .three-quarters-height {
+    padding: 0;
+  }
+  .subheading-text {
+    flex-direction: row !important;
+  }
   .custom-newsletter-wrapper {
     height: 155vw;
   }
@@ -1549,7 +1562,7 @@ section {
   }
 
   .btn {
-    padding: 0.5rem 0.9rem;
+    padding: 1rem 0.9rem;
   }
 
   .custom-jersey-btns-wrapper {

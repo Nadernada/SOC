@@ -7735,6 +7735,19 @@ body:has(.section-footer--visible) .parallax-rounded-corners {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .custom-scrollbar {
+    min-width: unset;
+  }
+
+  .subheading-text {
+    flex-direction: row;
+  }
+  .carousel:not(.flickity-enabled) {
+    justify-content: start;
+  }
+}
+
 .custom-scrollbar__thumb {
   position: absolute;
   top: 0;
@@ -31852,6 +31865,12 @@ search-form mark {
   text-align: center;
   text-transform: uppercase;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .product__form .btn--submit span {
+    font-size: 16px;
+  }
 }
 
 .product__form .btn--submit.is-loading {
