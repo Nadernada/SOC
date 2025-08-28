@@ -232,6 +232,14 @@ html:not(:lang(ar)) .arabic-banner {
   gap: 0.5rem;
 }
 
+.product-grid-item__info-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .product-grid-item__title {
   font-size: 1.2rem;
 }
@@ -1801,4 +1809,47 @@ img,
 
 .icon-shopping-bag {
   stroke: unset;
+}
+
+.pointer__quick-view {
+  position: relative;
+}
+
+.pointer:hover .pointer__quick-view__inner {
+  opacity: 1;
+}
+
+.pointer__quick-view__inner {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translate(0, -65%);
+  opacity: 0;
+}
+
+.pointer__quick-view__inner__content {
+  background-color: white;
+}
+
+.pointer__quick-view__inner__content__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.pointer__quick-view__inner__content__info
+  .pointer__quick-view__inner__content__info__title {
+  color: black !important;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 0;
+}
+
+.pointer__quick-view__inner__content__info svg {
+  max-height: 1.3rem;
+  max-width: 1.3rem;
+  color: black !important;
 }
