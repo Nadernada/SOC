@@ -375,7 +375,7 @@
         "products_layout": "carousel",
         "number_of_products": 8,
         "products_per_row_on_desktop": 3,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "text_alignment": "text-left",
         "title": "<p>TRENDING NOW</p>",
         "heading_highlight_type": "circle",
