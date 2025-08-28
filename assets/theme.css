@@ -36905,10 +36905,6 @@ search-form mark {
   text-align: left;
   cursor: pointer;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .policies-tab-btn.active {
   color: #fff;
 }
@@ -36918,7 +36914,6 @@ search-form mark {
   padding-right: 16rem;
   min-height: 400px;
 }
-<<<<<<< Updated upstream
 
 .policies-tab-content {
   display: none;
@@ -36928,14 +36923,6 @@ search-form mark {
   display: block;
 }
 
-=======
-.policies-tab-content {
-  display: none;
-}
-.policies-tab-content.active {
-  display: block;
-}
->>>>>>> Stashed changes
 button:active,
 button.is-active,
 .btn:active,
@@ -36948,10 +36935,6 @@ button.is-active,
   border-top: 0.5px solid #bebebe;
   padding-top: 3rem;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .footer-content {
   padding-top: 3rem;
 }
@@ -36972,14 +36955,8 @@ button.is-active,
 
 .footer-copyright__right {
   display: flex;
-<<<<<<< Updated upstream
-  gap: 1rem;
-  text-decoration: underline;
-
-=======
   gap: 2rem;
   text-decoration: underline;
->>>>>>> Stashed changes
 }
 
 /* Footer copyright neutral typography */
@@ -36999,13 +36976,8 @@ button.is-active,
 
 Footer base font color footer.site-footer,
 footer.site-footer * {
-<<<<<<< Updated upstream
-  color: #9D9D9D !important;
-  font-family: 'Gotham', Arial, sans-serif;
-=======
   color: #9d9d9d !important;
   font-family: "Gotham", Arial, sans-serif;
->>>>>>> Stashed changes
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -37048,10 +37020,6 @@ footer.site-footer .newsletter button,
 footer.site-footer .newsletter-section__entry button {
   color: #000 !important;
   padding: 12px 24px !important;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 
 footer.site-footer .newsletter input[type="email"],
