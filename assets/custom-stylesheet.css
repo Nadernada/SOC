@@ -1565,6 +1565,28 @@ section {
     justify-content: center;
   }
 
+  .payment-icon-list.show {
+    display: none;
+  }
+
+  .payment-icon-list.hidden {
+    display: show;
+  }
+  @media only screen and (max-width: 767px) {
+    .payment-icon-list.show {
+      display: flex;
+      justify-content: start;
+    }
+
+    .payment-icon-list.hidden {
+      display: none;
+    }
+
+    .look__text {
+      padding: 2rem 0;
+    }
+  }
+
   .banner-content-wrapper {
     width: auto;
     margin-right: 3rem;

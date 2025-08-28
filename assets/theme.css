@@ -28716,7 +28716,7 @@ input.shopify-payment-button__button--unbranded
 
   .overlapping-images__images--single-mobile
     .overlapping-images__image--secondary {
-    display: none;
+    left: calc(var(--image-offset) * -0.2);
   }
 }
 

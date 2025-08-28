@@ -288,7 +288,7 @@
                     {%- endfor -%}
                   </ul>
                   {% if forloop.index == 2 %}
-                    <ul class="payment-icon-list">
+                    <ul class="payment-icon-list hidden">
                       {% for type in shop.enabled_payment_types %}
                         {%- liquid
                           capture payment_icon
