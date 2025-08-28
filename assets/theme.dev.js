@@ -12321,10 +12321,9 @@
       this.cartEvents();
 
       // Init collapsible function for the cart drawer accordions
-      // if (this.cartDrawerBody) {
-      //   this.collapsible = new Collapsible(this.cartDrawerBody);
-      // }
-      if (this.buttonHolder) {
+      if (this.cartDrawerBody) {
+        this.collapsible = new Collapsible(this.cartDrawerBody);
+      } else if (this.buttonHolder) {
         this.collapsible = new Collapsible(this.buttonHolder);
       }
 
