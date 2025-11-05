@@ -483,7 +483,11 @@
                       if subtotal == 0
                         echo 'products.product.free' | t
                       else
-                        echo subtotal | money_with_currency
+                        if currency_code_enable
+                          echo subtotal | money_with_currency
+                        else
+                          echo subtotal | money
+                        endif
                       endif
                     -%}
                   </span>
