@@ -56,8 +56,8 @@
     assign product_price = 'products.product.free' | t
     assign product_price_min = 'products.product.free' | t
   elsif settings.currency_code_enable
-    assign product_price = product_price_value | money_with_currency
-    assign product_price_min = product_price_min_value | money_with_currency
+    assign product_price = product_price_value | money
+    assign product_price_min = product_price_min_value | money
   else
     assign product_price = product_price_value | money
     assign product_price_min = product_price_min_value | money
